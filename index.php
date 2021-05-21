@@ -16,7 +16,7 @@ $smarty->cache_lifetime = 120;
 
 $js_custom_vars = array(
 	'google_conversion_id' => '970727982',
-	'google_custom_params' = 'window.google_tag_params',
+	'google_custom_params' => 'window.google_tag_params',
 	'google_remarketing_only' => 'true'
 );
 
@@ -37,6 +37,11 @@ $stylesheets = array(
 );
 
 if($file == ''){
-	$smarty->assign("LastName", array("Doe", "Smith", "Johnson", "Case"));
+	$smarty->assign(
+		'stylesheets' => $stylesheets,
+		'javascript' => $javascript
+		'js_custom_vars' => $js_custom_vars
+	);
+	
 	$smarty->display('index.tpl');
 }
