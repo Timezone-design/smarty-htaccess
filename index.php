@@ -37,12 +37,13 @@ while (($row = fgetcsv($handle, 0, "\t")) !== false)
     	'content' => $row[5]
     );
 
+var_dump($page);
+
     if($page['uri'] == $uri) break;
 }
 
 fclose($handle);
 
-var_dump($page);
 die('ok');
 
 $js_custom_vars = array(
