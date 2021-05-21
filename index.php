@@ -19,6 +19,7 @@ $js_custom_vars = array(
 	'google_custom_params' => 'window.google_tag_params',
 	'google_remarketing_only' => 'true'
 );
+	die('assign ok');
 
 $javascript = array(
 	'head' => array(
@@ -43,6 +44,5 @@ if($file == ''){
 		'js_custom_vars' => $js_custom_vars
 	);
 
-	die('assign ok');
 	$smarty->display('index.tpl');
 }
