@@ -5,7 +5,7 @@ $uri = $_GET['uri'];
 require(__DIR__.'/smarty/libs/Smarty.class.php');
 $smarty = new Smarty;
 //$smarty->force_compile = true;
-$smarty->debugging = true;
+$smarty->debugging = false;
 $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
@@ -29,12 +29,12 @@ $row = fgetcsv($handle, 0, ",");
 while (($row = fgetcsv($handle, 0, ",")) !== false) 
 {
     $page = array(
-    	'uri' => $row[0],
-    	'id_template' => $row[1],
-    	'meta_title' => $row[2],
-    	'meta_description' => $row[3],
-    	'meta_keywords' => $row[4],
-    	'content' => $row[5]
+    	'uri' => (string) $row[0],
+    	'id_template' => (int) $row[1],
+    	'meta_title' => (string) $row[2],
+    	'meta_description' => (string) $row[3],
+    	'meta_keywords' => (string) $row[4],
+    	'content' => (string) $row[5]
     );
 
     if((string)$page['uri'] == (string)$uri) break;
@@ -80,11 +80,19 @@ $stylesheets = array(
 	'inline' => array()
 );
 
+$search_values = array(
+	'manufacturer' => isset($_POST["manufacturer"]) ? $_POST["manufacturer"] : "";
+	'type' => isset($_POST["type"]) ? $_POST["type"] : "";
+	'model' => isset($_POST["model"]) ? $_POST["model"] : "";
+	'pattern' => isset($_POST["pattern"]) ? $_POST["pattern"] : "";
+);
+
 $smarty->assign(array(
 	'stylesheets' => $stylesheets,
 	'javascript' => $javascript,
 	'js_custom_vars' => $js_custom_vars,
-	'page' => $page
+	'page' => $page,
+	'search_values' => $search_values
 ));
 
 $smarty->display($templates[(int) $page['id_template']]);
