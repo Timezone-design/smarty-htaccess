@@ -24,7 +24,7 @@ $page = array(
 
 $file = '/db/db.csv';
 $handle = fopen($file, "r");
-$row = fgetcsv($handle, 0, ",")
+$row = fgetcsv($handle, 0, ",");
 while (($row = fgetcsv($handle, 0, ",")) !== false) 
 {
     $page = array(
