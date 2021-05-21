@@ -5,7 +5,7 @@ $uri = $_GET['uri'];
 require(__DIR__.'/smarty/libs/Smarty.class.php');
 $smarty = new Smarty;
 //$smarty->force_compile = true;
-$smarty->debugging = true;
+$smarty->debugging = false;
 $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
