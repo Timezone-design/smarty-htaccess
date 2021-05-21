@@ -23,7 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 <!doctype html>
-<html lang="{$language.iso_code}">
+<html>
 
   <head>
     {block name='head'}
@@ -31,17 +31,10 @@
     {/block}
   </head>
 
-  <body id="{$page.page_name}" class="{$page.body_classes|classnames}">
-
-    {block name='hook_after_body_opening_tag'}
-      {hook h='displayAfterBodyOpeningTag'}
-    {/block}
-
+  <body>
+    
     <main>
-      {block name='product_activation'}
-        {include file='catalog/_partials/product-activation.tpl'}
-      {/block}
-
+    
       <header id="header">
         {block name='header'}
           {include file='_partials/header.tpl'}
@@ -53,43 +46,20 @@
       {/block}
 
       <section id="wrapper">
-        {hook h="displayWrapperTop"}
         <div class="container">
           {block name='breadcrumb'}
             {include file='_partials/breadcrumb.tpl'}
           {/block}
 
-          {block name="left_column"}
-            <div id="left-column" class="col-xs-12 col-sm-4 col-md-3">
-              {if $page.page_name == 'product'}
-                {hook h='displayLeftColumnProduct'}
-              {else}
-                {hook h="displayLeftColumn"}
-              {/if}
-            </div>
-          {/block}
-
           {block name="content_wrapper"}
             <div id="content-wrapper" class="left-column right-column col-sm-4 col-md-6">
-              {hook h="displayContentWrapperTop"}
               {block name="content"}
                 <p>Hello world! This is HTML5 Boilerplate.</p>
               {/block}
-              {hook h="displayContentWrapperBottom"}
             </div>
           {/block}
 
-          {block name="right_column"}
-            <div id="right-column" class="col-xs-12 col-sm-4 col-md-3">
-              {if $page.page_name == 'product'}
-                {hook h='displayRightColumnProduct'}
-              {else}
-                {hook h="displayRightColumn"}
-              {/if}
-            </div>
-          {/block}
         </div>
-        {hook h="displayWrapperBottom"}
       </section>
 
       <footer id="footer">
@@ -104,9 +74,6 @@
       {include file="_partials/javascript.tpl" javascript=$javascript.bottom}
     {/block}
 
-    {block name='hook_before_body_closing_tag'}
-      {hook h='displayBeforeBodyClosingTag'}
-    {/block}
   </body>
 
 </html>
