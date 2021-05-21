@@ -32,7 +32,7 @@ $javascript = array(
 );
 
 $stylesheets = array(
-	'external' => array("web_r.css","header_r.css","pc_left_menu.css","sp_menu.css"),
+	'external' => array("/assets/css/web_r.css","/assets/css/header_r.css","/assets/css/pc_left_menu.css","sp_menu.css"),
 	'inline' => array()
 );
 
@@ -42,6 +42,7 @@ if($file == ''){
 		'javascript' => $javascript
 		'js_custom_vars' => $js_custom_vars
 	);
-	
+
+	die('assign ok');
 	$smarty->display('index.tpl');
 }
