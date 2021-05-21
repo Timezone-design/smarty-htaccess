@@ -3,7 +3,18 @@
 ** Tweak as per your needs **
 */
 
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"); */
+body {
+  background-color: white;
+}
+
+.clearfix {
+  display: block;
+  background-color: white;
+  color: transparent;
+  height: 44px;
+}
+
+/* Header nav css */
 
 li.nav__item a {
   text-decoration: none;
@@ -34,6 +45,10 @@ li.nav__item a {
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+  .nav {
+    margin-right: 112px;
   }
 }
 
@@ -92,75 +107,115 @@ li.nav__item a {
   }
 }
 
-
 .wrapper {
-  max-width: 1140px;
+  /* max-width: 1140px; */
   padding-left: 1rem;
   padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 2px solid #2036c2;
 }
 
-
-
-/* *,
-*:before,
-*:after {
-  box-sizing: border-box;
+.logo {
+  width: 76%;
+  display: flex;
+  margin-left: 25px;
 }
 
+/* Header Carousel css */
 
-
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-.sr-only {
+#header_carousel_name{
+  color: black;
+  /* background-color: transparent; */
+  background-image: url("../arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position: 33% 106%;
+  padding-bottom: 10px;
   position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+  top: 178px;
+  left: 86px;
+  padding-right: 150px;
+  z-index: 10;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.button {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  color: #fff;
-  background-color: #ffffff;
-  min-width: 120px;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  text-align: center;
+#top_carousel {
+  background-color:white;
 }
 
-.button svg {
-  display: inline-block;
-  vertical-align: middle;
-  width: 24px;
-  height: 24px;
-  fill: #fff;
+.slick-slide {
+  transition: transform 0.5s ease-in-out;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
 }
 
-.button span {
-  display: none;
+.gallery-wrapper {
+  width: 90%;
+  margin: auto;
+  height: 380px;
+  display: flex !important;
+  align-items: center;
 }
 
-@media (min-width: 600px) {
-  .button span {
-    display: initial;
-  }
+.slick-slide img {
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
 }
 
-.button--icon {
-  min-width: initial;
-  padding: 0.5rem;
-} */
+.slick-slide:not(.slick-center) img {
+  transform: scale(.3) !important;
+  opacity: 0.3 !important;
+}
+.slick-slide.slick-current.slick-active.slick-center img {
+  transform: scale(1);
+}
+
+.slick-active:not(.slick-center) {
+  transform: translateX(-100px);
+}
+
+.slick-center + .slick-active {
+  transform: translateX(100px);
+}
+
+.slick-prev {
+  left: 19% !important;
+  z-index: 100;
+}
+
+.slick-next {
+  right: 19% !important;
+  z-index: 100;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: center;
+  height: 100%;
+}
+
+.slick-list {
+  height: 100%;
+}
+
+.slick-next::before, .slick-prev::before {
+    /* color: #525252 !important;
+    font-size: 15px !important; */
+    content: "" !important;
+}
+
+.slick-next, .slick-prev {
+  background-image: url("../Daco_4829759.png") !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.slick-next {
+  /* transform: rotate(180deg); */
+  transform: rotate(180deg) !important;
+}
