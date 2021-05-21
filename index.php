@@ -22,12 +22,12 @@ $page = array(
 	'content' => 'Page Not Found'
 );
 
-$file = '/db/db.csv';
+$file = __DIR__.'/db/db.txt';
 $handle = fopen($file, "r");
-$row = fgetcsv($handle, 0, ",");
+$row = fgetcsv($handle, 0, "\t");
 var_dump($row);
 die('ok');
-while (($row = fgetcsv($handle, 0, ",")) !== false) 
+while (($row = fgetcsv($handle, 0, "\t")) !== false) 
 {
     $page = array(
     	'uri' => $row[0],
