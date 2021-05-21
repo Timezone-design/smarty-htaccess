@@ -1,0 +1,13 @@
+Options -MultiViews
+RewriteEngine on
+RewriteBase /test/
+
+RewriteRule ^webservice/(.*)$ %{ENV:REWRITEBASE}webservice/$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([^/]+)\.(html|php)$ index.php?file=$1 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)\.(html|php)$ index.php?folder1=$1&file=$2 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)\.(html|php)$ index.php?folder1=$1&folder2=$2&file=$3 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)\.(html|php)$ index.php?folder1=$1&folder2=$2&folder3=$3&file=$4 [L,QSA]
