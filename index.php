@@ -44,7 +44,7 @@ while (($row = fgetcsv($handle, 0, ",")) !== false)
 
 fclose($handle);
 
-die('ok');
+// die('ok');
 
 $js_custom_vars = array(
 	'google_conversion_id' => 970727982,
