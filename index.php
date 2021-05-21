@@ -42,6 +42,7 @@ while (($row = fgetcsv($handle, 0, ",")) !== false)
 
 fclose($handle);
 
+
 $js_custom_vars = array(
 	'google_conversion_id' => 970727982,
 	'google_custom_params' => 'window.google_tag_params',
@@ -50,7 +51,12 @@ $js_custom_vars = array(
 
 $javascript = array(
 	'head' => array(
-		'external' => array("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", "https://www.kts-web.com/ajax/jquery.min.js"),
+
+		'external' => array(
+			"/assets/js/header_blu.js",
+			// "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
+			// "https://www.kts-web.com/ajax/jquery.min.js"
+		),
 		'inline' => array()
 	),
 	'bottom' => array(
@@ -60,7 +66,14 @@ $javascript = array(
 );
 
 $stylesheets = array(
-	'external' => array("/assets/css/web_r.css","/assets/css/header_r.css","/assets/css/pc_left_menu.css","/assets/css/sp_menu.css"),
+
+	'external' => array(
+		"/assets/css/header_blu.css",
+		// "/assets/css/web_r.css",
+		// "/assets/css/header_r.css",
+		// "/assets/css/pc_left_menu.css",
+		// "/assets/css/sp_menu.css"
+	),
 	'inline' => array()
 );
 
