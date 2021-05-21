@@ -25,5 +25,5 @@
 {extends file='layout.tpl'}
 
     {block name="content"}
-      <p>Write TOP page content.</p>
+      <p>This is shop menu.</p>
     {/block}

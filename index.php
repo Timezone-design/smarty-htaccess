@@ -37,14 +37,11 @@ while (($row = fgetcsv($handle, 0, ",")) !== false)
     	'content' => $row[5]
     );
 
-    echo $page['uri'].'<br>';
-
     if((string)$page['uri'] == (string)$uri) break;
 }
 
 fclose($handle);
 
-die('ok');
 
 $js_custom_vars = array(
 	'google_conversion_id' => 970727982,
@@ -54,6 +51,7 @@ $js_custom_vars = array(
 
 $javascript = array(
 	'head' => array(
+
 		'external' => array(
 			"/assets/js/header_blu.js",
 			// "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
@@ -68,6 +66,7 @@ $javascript = array(
 );
 
 $stylesheets = array(
+
 	'external' => array(
 		"/assets/css/header_blu.css",
 		// "/assets/css/web_r.css",
@@ -86,5 +85,3 @@ $smarty->assign(array(
 ));
 
 $smarty->display($templates[(int) $page['id_template']]);
-
-echo $uri;
