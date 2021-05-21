@@ -7,7 +7,7 @@ $cat = $_GET['cat'];
 $item = $_GET['item'];
 
 // echo "$folder1/$folder2/$folder3/$file-$cat-$item";
-require '../libs/Smarty.class.php';
+require 'smarty/libs/Smarty.class.php';
 $smarty = new Smarty;
 //$smarty->force_compile = true;
 $smarty->debugging = true;
