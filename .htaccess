@@ -1,6 +1,5 @@
 Options -MultiViews
 RewriteEngine on
-RewriteBase /test/
 
 RewriteRule ^webservice/(.*)$ %{ENV:REWRITEBASE}webservice/$1 [QSA,L]
 
