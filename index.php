@@ -24,9 +24,9 @@ $page = array(
 
 $file = __DIR__.'/db/db.txt';
 $handle = fopen($file, "r");
-$row = fgetcsv($handle, 0, "\t");
+$row = fgetcsv($handle, 0, ",");
 
-while (($row = fgetcsv($handle, 0, "\t")) !== false) 
+while (($row = fgetcsv($handle, 0, ",")) !== false) 
 {
     $page = array(
     	'uri' => $row[0],
