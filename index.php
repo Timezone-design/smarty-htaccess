@@ -14,6 +14,29 @@ $smarty->debugging = true;
 $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
+$js_custom_vars = array(
+	'google_conversion_id' => '970727982',
+	'google_custom_params' = 'window.google_tag_params',
+	'google_remarketing_only' => 'true'
+);
+
+$javascript = array(
+	'head' => array(
+		'external' => array("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", "https://www.kts-web.com/ajax/jquery.min.js"),
+		'inline' => array()
+	),
+	'bottom' => array(
+		'external' => array(),
+		'inline' => array()
+	)
+);
+
+$stylesheets = array(
+	'external' => array("web_r.css","header_r.css","pc_left_menu.css","sp_menu.css"),
+	'inline' => array()
+);
+
 if($file == ''){
+	$smarty->assign("LastName", array("Doe", "Smith", "Johnson", "Case"));
 	$smarty->display('index.tpl');
 }

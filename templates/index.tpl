@@ -25,5 +25,5 @@
 {extends file='layout.tpl'}
 
     {block name="content"}
-      <p>Hello world! This is HOME page content.</p>
+      <p>Write TOP page content.</p>
     {/block}

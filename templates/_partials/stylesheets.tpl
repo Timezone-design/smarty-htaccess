@@ -23,11 +23,11 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {foreach $stylesheets.external as $stylesheet}
-  <link rel="stylesheet" href="{$stylesheet.uri}" type="text/css" media="{$stylesheet.media}">
+  <link rel="stylesheet" href="{$stylesheet}" type="text/css">
 {/foreach}
 
 {foreach $stylesheets.inline as $stylesheet}
   <style>
-    {$stylesheet.content}
+    {$stylesheet}
   </style>
 {/foreach}
