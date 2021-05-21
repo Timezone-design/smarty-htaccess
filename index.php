@@ -39,7 +39,7 @@ $stylesheets = array(
 if($file == ''){
 	$smarty->assign(
 		'stylesheets' => $stylesheets,
-		'javascript' => $javascript
+		'javascript' => $javascript,
 		'js_custom_vars' => $js_custom_vars
 	);
 
