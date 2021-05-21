@@ -9,36 +9,49 @@ $smarty->debugging = true;
 $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
-if($uri == '' || $uri == 'index.html'){
+$file = '/db/db.csv';
+$handle = fopen($file, "r");
+$code_stock = ""; $codes = "";
 
-	$js_custom_vars = array(
-		'google_conversion_id' => 970727982,
-		'google_custom_params' => 'window.google_tag_params',
-		'google_remarketing_only' => true
-	);
+$js_custom_vars = array(
+	'google_conversion_id' => 970727982,
+	'google_custom_params' => 'window.google_tag_params',
+	'google_remarketing_only' => true
+);
 
-	$javascript = array(
-		'head' => array(
-			'external' => array("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", "https://www.kts-web.com/ajax/jquery.min.js"),
-			'inline' => array()
-		),
-		'bottom' => array(
-			'external' => array(),
-			'inline' => array()
-		)
-	);
-
-	$stylesheets = array(
-		'external' => array("/assets/css/web_r.css","/assets/css/header_r.css","/assets/css/pc_left_menu.css","/assets/css/sp_menu.css"),
+$javascript = array(
+	'head' => array(
+		'external' => array("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", "https://www.kts-web.com/ajax/jquery.min.js"),
 		'inline' => array()
-	);
+	),
+	'bottom' => array(
+		'external' => array(),
+		'inline' => array()
+	)
+);
 
+$stylesheets = array(
+	'external' => array("/assets/css/web_r.css","/assets/css/header_r.css","/assets/css/pc_left_menu.css","/assets/css/sp_menu.css"),
+	'inline' => array()
+);
 
-	$smarty->assign(array(
-		'stylesheets' => $stylesheets,
-		'javascript' => $javascript,
-		'js_custom_vars' => $js_custom_vars
-	));
+// while (($feed_field = fgetcsv($handle, 0, "\t")) !== false) 
+// {
+//     $codes .= $feed_field[0].",";
+//     $code_stock .= " WHEN ".$feed_field[0]." THEN ".$feed_field[1];
+// }
 
-	$smarty->display('index.tpl');
-}
+// fclose($handle);
+
+// if($uri == '' || $uri == 'index.html'){
+
+// 	$smarty->assign(array(
+// 		'stylesheets' => $stylesheets,
+// 		'javascript' => $javascript,
+// 		'js_custom_vars' => $js_custom_vars
+// 	));
+
+// 	$smarty->display('index.tpl');
+// }
+
+echo $uri;
