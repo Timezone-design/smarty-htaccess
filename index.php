@@ -38,11 +38,11 @@ $stylesheets = array(
 );
 
 if($file == ''){
-	$smarty->assign(
+	$smarty->assign(array(
 		'stylesheets' => $stylesheets,
 		'javascript' => $javascript,
 		'js_custom_vars' => $js_custom_vars
-	);
+	));
 
 	$smarty->display('index.tpl');
 }
