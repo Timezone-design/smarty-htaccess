@@ -22,16 +22,8 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-{extends file='page.tpl'}
+{extends file='layout.tpl'}
 
-    {block name='page_content_container'}
-      <section id="content" class="page-home">
-        {block name='page_content_top'}{/block}
-
-        {block name='page_content'}
-          {block name='hook_home'}
-            {$HOOK_HOME nofilter}
-          {/block}
-        {/block}
-      </section>
+    {block name="content"}
+      <p>Hello world! This is HOME page.</p>
     {/block}
