@@ -81,10 +81,10 @@ $stylesheets = array(
 );
 
 $search_values = array(
-	'manufacturer' => isset($_POST["manufacturer"]) ? $_POST["manufacturer"] : "";
-	'type' => isset($_POST["type"]) ? $_POST["type"] : "";
-	'model' => isset($_POST["model"]) ? $_POST["model"] : "";
-	'pattern' => isset($_POST["pattern"]) ? $_POST["pattern"] : "";
+	'manufacturer' => isset($_POST["manufacturer"]) ? $_POST["manufacturer"] : "",
+	'type' => isset($_POST["type"]) ? $_POST["type"] : "",
+	'model' => isset($_POST["model"]) ? $_POST["model"] : "",
+	'pattern' => isset($_POST["pattern"]) ? $_POST["pattern"] : "",
 );
 
 $smarty->assign(array(
