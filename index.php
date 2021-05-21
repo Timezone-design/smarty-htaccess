@@ -21,7 +21,7 @@ $page = array(
 	'meta_keywords' => '404',
 	'content' => 'Page Not Found'
 );
-
+die($uri);
 $file = __DIR__.'/db/db.txt';
 $handle = fopen($file, "r");
 $row = fgetcsv($handle, 0, "\t");
