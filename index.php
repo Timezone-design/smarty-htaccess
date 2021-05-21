@@ -21,7 +21,7 @@ $page = array(
 	'meta_keywords' => '404',
 	'content' => 'Page Not Found'
 );
-die($uri);
+
 $file = __DIR__.'/db/db.txt';
 $handle = fopen($file, "r");
 $row = fgetcsv($handle, 0, "\t");
@@ -37,7 +37,7 @@ while (($row = fgetcsv($handle, 0, "\t")) !== false)
     	'content' => $row[5]
     );
 
-var_dump($page);
+    echo $page['uri'].'<br>';
 
     if($page['uri'] == $uri) break;
 }
