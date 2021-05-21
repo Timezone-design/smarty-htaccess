@@ -31,7 +31,7 @@
     <div id="top_carousel" class="row">
         <h1 id="header_carousel_name">PICK UP</h1>
         <div class="gallery-wrapper">
-            <div><img src="Screenshot_1.png" data-index="1"></div>
+            <div><img src="/assets/img/Screenshot_1.png" data-index="1"></div>
             <div><img src="Screenshot_1.png" data-index="2"></div>
             <div><img src="Screenshot_1.png" data-index="3"></div>
             <div><img src="Screenshot_1.png" data-index="4"></div>
