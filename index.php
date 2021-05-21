@@ -39,7 +39,7 @@ while (($row = fgetcsv($handle, 0, "\t")) !== false)
 
     echo $page['uri'].'<br>';
 
-    if($page['uri'] == $uri) break;
+    if((string)$page['uri'] == (string)$uri) break;
 }
 
 fclose($handle);
