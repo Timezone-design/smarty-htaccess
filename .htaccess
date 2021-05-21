@@ -1,7 +1,7 @@
 Options -MultiViews
 RewriteEngine on
 
-RewriteRule ^webservice/(.*)$ %{ENV:REWRITEBASE}webservice/$1 [QSA,L]
+RewriteRule ^blog/(.*)$ %{ENV:REWRITEBASE}blog/$1 [QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
