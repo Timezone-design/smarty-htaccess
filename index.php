@@ -37,14 +37,10 @@ while (($row = fgetcsv($handle, 0, ",")) !== false)
     	'content' => $row[5]
     );
 
-    echo $page['uri'].'<br>';
-
     if((string)$page['uri'] == (string)$uri) break;
 }
 
 fclose($handle);
-
-// die('ok');
 
 $js_custom_vars = array(
 	'google_conversion_id' => 970727982,
@@ -76,5 +72,3 @@ $smarty->assign(array(
 ));
 
 $smarty->display($templates[(int) $page['id_template']]);
-
-echo $uri;
