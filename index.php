@@ -14,7 +14,6 @@ $smarty->debugging = true;
 $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
-die('smarty ok');
 if($file == ''){
 	$smarty->display('index.tpl');
 }
