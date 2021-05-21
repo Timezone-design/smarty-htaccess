@@ -15,9 +15,9 @@ $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
 $js_custom_vars = array(
-	'google_conversion_id' => '970727982',
+	'google_conversion_id' => 970727982,
 	'google_custom_params' => 'window.google_tag_params',
-	'google_remarketing_only' => 'true'
+	'google_remarketing_only' => true
 );
 
 $javascript = array(
@@ -32,7 +32,7 @@ $javascript = array(
 );
 
 $stylesheets = array(
-	'external' => array("/assets/css/web_r.css","/assets/css/header_r.css","/assets/css/pc_left_menu.css","sp_menu.css"),
+	'external' => array("/assets/css/web_r.css","/assets/css/header_r.css","/assets/css/pc_left_menu.css","/assets/css/sp_menu.css"),
 	'inline' => array()
 );
 
