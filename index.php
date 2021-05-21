@@ -25,8 +25,7 @@ $page = array(
 $file = __DIR__.'/db/db.txt';
 $handle = fopen($file, "r");
 $row = fgetcsv($handle, 0, "\t");
-var_dump($row);
-die('ok');
+
 while (($row = fgetcsv($handle, 0, "\t")) !== false) 
 {
     $page = array(
