@@ -22,7 +22,7 @@ $page = array(
 	'content' => 'Page Not Found'
 );
 
-$file = __DIR__.'/db/db.txt';
+$file = __DIR__.'/db/db.csv';
 $handle = fopen($file, "r");
 $row = fgetcsv($handle, 0, ",");
 
