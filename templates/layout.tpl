@@ -34,22 +34,15 @@
   <body>
     
     <main>
-    
+
       <header id="header">
         {block name='header'}
           {include file='_partials/header.tpl'}
         {/block}
       </header>
 
-      {block name='notifications'}
-        {include file='_partials/notifications.tpl'}
-      {/block}
-
       <section id="wrapper">
         <div class="container">
-          {block name='breadcrumb'}
-            {include file='_partials/breadcrumb.tpl'}
-          {/block}
 
           {block name="content_wrapper"}
             <div id="content-wrapper" class="left-column right-column col-sm-4 col-md-6">
@@ -70,9 +63,11 @@
 
     </main>
 
-    {block name='javascript_bottom'}
-      {include file="_partials/javascript.tpl" javascript=$javascript.bottom}
-    {/block}
+    {if isset($javascript)}
+      {block name='javascript_bottom'}
+        {include file="_partials/javascript.tpl" javascript=$javascript.bottom}
+      {/block}
+    {/if}
 
   </body>
 
