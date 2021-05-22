@@ -79,7 +79,9 @@ $stylesheets = array(
 		// "/assets/css/pc_left_menu.css",
 		// "/assets/css/sp_menu.css"
 	),
-	'inline' => array()
+	'inline' => array(
+		"/assets/js/other_blu.js",
+	)
 );
 
 $search_values = array(
