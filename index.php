@@ -64,7 +64,35 @@ $javascript = array(
 			"/assets/js/header_blu.js",
 			"/assets/slick/slick.min.js",
 		),
-		'inline' => array()
+		'inline' => array(
+			"$(document).ready(function () {
+				$('.gallery-wrapper').slick({
+				  centerMode: true,
+				  centerPadding: '0px',
+				  slidesToShow: 3,
+				  // variableWidth: true,
+				  responsive: [{
+					  breakpoint: 768,
+					  settings: {
+						arrows: false,
+						centerMode: true,
+						centerPadding: '40px',
+						slidesToShow: 3
+					  }
+					},
+					{
+					  breakpoint: 480,
+					  settings: {
+						arrows: false,
+						centerMode: true,
+						centerPadding: '40px',
+						slidesToShow: 1
+					  }
+					}
+				  ]
+				});
+			  });",
+		)
 	)
 );
 
@@ -80,7 +108,6 @@ $stylesheets = array(
 		// "/assets/css/sp_menu.css"
 	),
 	'inline' => array(
-		"/assets/js/other_blu.js",
 	)
 );
 
