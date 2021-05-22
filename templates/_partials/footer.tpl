@@ -1,1 +1,3 @@
-<p>Write footer</p>
+<footer>
+
+<footer>

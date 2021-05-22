@@ -55,7 +55,8 @@ $javascript = array(
 		'external' => array(
 			"/assets/js/header_blu.js",
 			"/assets/slick/slick.min.js",
-			// "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
+			"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
+			"https://code.jquery.com/jquery-migrate-1.2.1.min.js"
 			// "https://www.kts-web.com/ajax/jquery.min.js"
 		),
 		'inline' => array()

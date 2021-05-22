@@ -2,7 +2,7 @@
 <header class="site-header">
     <div id="top_navbar" class="row">
         <div class="wrapper site-header__wrapper">
-            <a href="#" class="brand"><img class="logo" src="ogp.png" alt="Company Logo" srcset=""></a>
+            <a href="#" class="brand"><img class="logo" src="/assets/img/ogp.png" alt="Company Logo" srcset=""></a>
             <nav class="nav">
                 <!-- <button class="nav__toggle" aria-expanded="false" type="button">
           
@@ -32,10 +32,10 @@
         <h1 id="header_carousel_name">PICK UP</h1>
         <div class="gallery-wrapper">
             <div><img src="/assets/img/Screenshot_1.png" data-index="1"></div>
-            <div><img src="Screenshot_1.png" data-index="2"></div>
-            <div><img src="Screenshot_1.png" data-index="3"></div>
-            <div><img src="Screenshot_1.png" data-index="4"></div>
-            <div><img src="Screenshot_1.png" data-index="5"></div>
+            <div><img src="/assets/img/Screenshot_1.png" data-index="2"></div>
+            <div><img src="/assets/img/Screenshot_1.png" data-index="3"></div>
+            <div><img src="/assets/img/Screenshot_1.png" data-index="4"></div>
+            <div><img src="/assets/img/Screenshot_1.png" data-index="5"></div>
         </div>
     </div>
 </header>
