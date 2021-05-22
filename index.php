@@ -98,11 +98,12 @@ $javascript = array(
 $stylesheets = array(
 
 	'external' => array(
+		"https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
+		"/assets/css/reset.min.css",
 		"/assets/css/header_blu.css",
 		"/assets/css/footer_blu.css",
 		"/assets/slick/slick.css",
 		"/assets/slick/slick-theme.css",
-		"https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
 		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
 	),
 	'inline' => array(
