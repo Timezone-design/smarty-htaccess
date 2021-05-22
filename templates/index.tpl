@@ -8,7 +8,7 @@
   {/block}
 
   {block name="product_search"}
-  	{include file='_partials/product_search.tpl'}
+  	
   {/block}
 
   {block name="notice"}
