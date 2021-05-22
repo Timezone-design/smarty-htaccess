@@ -22,7 +22,7 @@
         <div class="container">
 
           {block name="content_wrapper"}
-            <div id="content-wrapper" class="left-column right-column col-sm-4 col-md-6">
+            <div id="content-wrapper">
               {block name="content"}
                 <p>Hello world! This is HTML5 Boilerplate.</p>
               {/block}

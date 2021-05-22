@@ -11,20 +11,20 @@
         </button> -->
                 <ul class="nav__wrapper">
                     <li class="nav__item"><a href="/"><span class="ja">トップ</span><span class="en">TOP</span></a></li>
-                    <li class="nav__item"><a href="#"><span class="ja">ショップメニュー</span><span class="en">SHOP
+                    <li class="nav__item"><a href="/shop_menu/set/index.html"><span class="ja">ショップメニュー</span><span class="en">SHOP
                                 MENU</span></a></li>
-                    <li class="nav__item"><a href="#"><span class="ja">オリジナル商品</span><span class="en">ORIGINAL
+                    <li class="nav__item"><a href="/original_product/index.html"><span class="ja">オリジナル商品</span><span class="en">ORIGINAL
                                 PRODUCT</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">タイヤ・ホイール</span><span class="en">TIRE /
+                    <li class="nav__item"><a href="/tire_wheel/index.html"><span class="ja">タイヤ・ホイール</span><span class="en">TIRE /
                                 WHEEL</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">キャンペーン</span><span class="en">CAMPAIGN</span></a>
+                    <li class="nav__item"><a href="/campaign/index.html"><span class="ja">キャンペーン</span><span class="en">CAMPAIGN</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">業販</span><span class="en">WHOLESALE</span></a>
+                    <li class="nav__item"><a href="/wholesale/index.html"><span class="ja">業販</span><span class="en">WHOLESALE</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">ブログ</span><span class="en">BLOG</span></a></li>
-                    <li class="nav__item"><a href="#"><span class="ja">会社概要</span><span class="en">COMPANY</span></a>
+                    <li class="nav__item"><a href="/blog/"><span class="ja">ブログ</span><span class="en">BLOG</span></a></li>
+                    <li class="nav__item"><a href="/company.html"><span class="ja">会社概要</span><span class="en">COMPANY</span></a>
                     </li>
                 </ul>
             </nav>
@@ -34,11 +34,10 @@
     <div id="top-carousel" class="row">
         <h1 id="header-carousel-name" class="arrowed-title">PICK UP</h1>
         <div class="gallery-wrapper">
-            <div><img src="/assets/img/Screenshot_1.png" data-index="1"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="2"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="3"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="4"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="5"></div>
+            <div><img src="/assets/img/home/hks_202103_05_camp_480.gif" data-index="1"></div>
+            <div><img src="/assets/img/home/liqui_moly_dpf_480.gif" data-index="2"></div>
+            <div><img src="/assets/img/home/mahle_ozone_pro_480.gif" data-index="3"></div>
+            <div><img src="/assets/img/home/tire_wheel_480.gif" data-index="4"></div>
         </div>
     </div>
     <div class="clearfix"></div>

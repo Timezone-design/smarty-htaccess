@@ -1,0 +1,76 @@
+.four-of-a-kind-one {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.four-of-a-kind-one .title {
+    color: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.four-of-a-kind-one a {
+    background-color: rgba(128, 128, 128, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 56%;
+}
+
+.four-of-a-kind-one a * {
+    color: white;
+}
+
+#menu_title {
+  background-position: 32% 106%;
+}
+
+#notice-table {
+    /* display: block; */
+    width: 42%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+/* #notice-table tr {
+    width: 100%;
+} */
+
+#notice-table td {
+    padding: 25px 14px;
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+}
+
+#notice-table span.new-notice {
+    font-size: 8px;
+    color: blue;
+    position: absolute;
+    top: 15px;
+    display: none;
+}
+
+#notice-table span.new-notice.active {
+    display: inline-block;
+}
+
+#notice-table tr {
+    border-bottom: solid black 1px;
+}
+
+.notice a {
+    color: white;
+    display: block;
+    font-size: 13px;
+    width: auto;
+    margin: auto;
+}

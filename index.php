@@ -1,6 +1,7 @@
 <?php
-$uri = $_GET['uri'];
+$uri = isset($_GET['uri']) ? $_GET['uri'] : '';
 
+// die($uri);
 // echo "$folder1/$folder2/$folder3/$file-$cat-$item";
 require(__DIR__.'/smarty/libs/SmartyBC.class.php');
 $smarty = new SmartyBC;
@@ -41,6 +42,7 @@ while (($row = fgetcsv($handle, 0, ",")) !== false)
 }
 
 fclose($handle);
+
 
 
 $js_custom_vars = array(
@@ -98,11 +100,13 @@ $javascript = array(
 $stylesheets = array(
 
 	'external' => array(
+		"https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
+		// "/assets/css/reset.min.css",
 		"/assets/css/header_blu.css",
+		"/assets/css/mainbody_blu.css",
 		"/assets/css/footer_blu.css",
 		"/assets/slick/slick.css",
 		"/assets/slick/slick-theme.css",
-		"https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
 		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
 	),
 	'inline' => array(

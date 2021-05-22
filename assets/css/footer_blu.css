@@ -1,12 +1,11 @@
-footer {
+/* footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+} */
 
 #footer-title {
     position: relative;
     left: 86px;
-    margin-bottom: 30px;
-    background-position: 3% 106%;
+    background-position: 53% 106%;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -60,7 +59,11 @@ footer {
 }
 
 .footer-bottom .footer-text div {
-    padding-bottom: 20px;
+    padding-bottom: 18px;
+}
+
+.additional-info {
+    font-size: small;
 }
 
 .footer-text .company-title {
@@ -68,8 +71,13 @@ footer {
     font-size: xx-large;
 }
 
+.footer-text {
+    padding-left: 19px;
+}
+
 .copyright {
     text-align: center;
+    font-size: small;
 }
 
 #footer-logo-wrap {
@@ -79,4 +87,6 @@ footer {
 #footer-logo-wrap img {
     position: absolute;
     bottom: 0px;
+    width: 70%;
+    margin-left: -18px;
 }
