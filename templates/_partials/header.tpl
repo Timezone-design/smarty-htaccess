@@ -2,7 +2,9 @@
 <header class="site-header">
     <div id="top_navbar" class="row">
         <div class="wrapper site-header__wrapper">
-            <a href="#" class="brand"><img id="header-logo" class="logo" src="/assets/img/ogp.png" alt="Company Logo" srcset=""></a>
+
+            <a href="#" class="brand"><img id="header-logo" class="logo" src="/assets/img/ogp.png" alt="Company Logo"
+                    srcset=""></a>
             <nav class="nav">
                 <!-- <button class="nav__toggle" aria-expanded="false" type="button">
           

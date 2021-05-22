@@ -150,7 +150,8 @@ a.arrowed-link, a.arrowed-link:link, a.arrowed-link:visited, a.arrowed-link:hove
 }
 
 a.arrowed-link img {
-  zoom: 50%;
+  transform: translateY(-7px);
+  zoom: 37%;
 }
 
 #header-carousel-name {
