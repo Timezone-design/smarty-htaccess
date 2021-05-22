@@ -4,7 +4,7 @@ function smarty_function_product_search($params, $template)
 {
    	$csv  = array();
 	$position = array();
-	$file = "/db/position_db.csv";
+	$file = __DIR__."/db/position_db.csv";
 	$handle = fopen($file, 'r');
 	
 	while (($data = fgetcsv($handle, 0, ",")) !== FALSE) {
@@ -13,7 +13,7 @@ function smarty_function_product_search($params, $template)
 	
 	array_pop($position);
 	fclose($handle);
-	$file = "/db/products_db.csv";
+	$file = __DIR__."/db/products_db.csv";
 	$buffer=explode("\n",file_get_contents($file));
 	
 	foreach($position as $index) {
