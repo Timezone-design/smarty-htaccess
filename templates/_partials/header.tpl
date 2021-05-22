@@ -9,18 +9,24 @@
         </button> -->
                 <ul class="nav__wrapper">
                     <li class="nav__item"><a href="#"><span class="ja">JAP</span><span class="en">TOP</span></a></li>
-                    <li class="nav__item"><a href="#"><span class="ja">JAP</span><span class="en">SHOP MENU</span></a>
+                    <li class="nav__item"><a href="/shop_menu/set/index.html
+"><span class="ja">JAP</span><span class="en">SHOP MENU</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">JAP</span><span class="en">ORIGINAL
+                    <li class="nav__item"><a href="/product/index.html
+"><span class="ja">JAP</span><span class="en">ORIGINAL
                                 PRODUCT</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">JAP</span><span class="en">TIRE /
+                    <li class="nav__item"><a href="/tire_wheel/index.html
+"><span class="ja">JAP</span><span class="en">TIRE /
                                 WHEEL</span></a></li>
-                    <li class="nav__item"><a href="#"><span class="ja">JAP</span><span class="en">CAMPAIGN</span></a>
+                    <li class="nav__item"><a href="/camp/index.html
+"><span class="ja">JAP</span><span class="en">CAMPAIGN</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">JAP</span><span class="en">WHOLESALE</span></a>
+                    <li class="nav__item"><a href="/houjin/index.html
+"><span class="ja">JAP</span><span class="en">WHOLESALE</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">JAP</span><span class="en">BLOG</span></a></li>
+                    <li class="nav__item"><a href="/blog/
+"><span class="ja">JAP</span><span class="en">BLOG</span></a></li>
                     <li class="nav__item"><a href="#"><span class="ja">JAP</span><span class="en">COMPANY</span></a>
                     </li>
                 </ul>
