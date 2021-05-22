@@ -108,11 +108,11 @@
             </div>
         </div>
         <div class="footer-text col-md-8">
-            <div class="company-title">K T S---</div>
+            <div class="company-title">K T S — — —</div>
             <div class="additional-info">フッターです</div>
             <div class="additional-info">フッターです</div>
             <div class="additional-info">フッターです</div>
         </div>
-        <div class="copyright row"><span>&copy; ------</span></div>
+        <div class="copyright row"><span>&copy; — — — — — —</span></div>
     </div>
 </footer>
