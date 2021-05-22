@@ -55,6 +55,7 @@ li.nav__item a {
 @media (min-width: 600px) {
   .nav__wrapper {
     display: flex;
+    margin-bottom: 0px;
   }
 }
 
@@ -120,6 +121,10 @@ li.nav__item a {
   width: 76%;
   display: flex;
   margin-left: 25px;
+}
+
+.ja {
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* Header Carousel css */
