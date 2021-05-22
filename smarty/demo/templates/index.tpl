@@ -1,6 +1,8 @@
 {config_load file="test.conf" section="setup"}
 {include file="header.tpl" title=foo}
 
+
+
 <PRE>
 
 {* bold and title are read from the config file *}
@@ -83,5 +85,16 @@ This is an example of the html_options function:
         {html_options values=$option_values selected=$option_selected output=$option_output}
     </select>
 </form>
+
+{include file='header.tpl' assign="header_responsive"}
+{literal}
+<script type="text/javascript">
+        if ($isresponsive) { 
+            {/literal}
+             {$header_responsive}
+            {literal}
+        } 
+</script>
+{/literal}
 
 {include file="footer.tpl"}
