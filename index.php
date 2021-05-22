@@ -102,6 +102,7 @@ $stylesheets = array(
 		"/assets/css/header_blu.css",
 		"/assets/slick/slick.css",
 		"/assets/slick/slick-theme.css",
+		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
 		// "/assets/css/web_r.css",
 		// "/assets/css/header_r.css",
 		// "/assets/css/pc_left_menu.css",

@@ -21,6 +21,7 @@
 {block name='head_icons'}
   <link rel="icon" type="image/vnd.microsoft.icon" href="favicon">
   <link rel="shortcut icon" type="image/x-icon" href="favicon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
 {/block}
 
 {if isset($stylesheets)}
