@@ -55,7 +55,6 @@ $javascript = array(
 		'external' => array(
 			"https://code.jquery.com/jquery-1.11.0.min.js",
 			"https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-			// "https://www.kts-web.com/ajax/jquery.min.js"
 		),
 		'inline' => array()
 	),
@@ -104,10 +103,6 @@ $stylesheets = array(
 		"/assets/slick/slick.css",
 		"/assets/slick/slick-theme.css",
 		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
-		// "/assets/css/web_r.css",
-		// "/assets/css/header_r.css",
-		// "/assets/css/pc_left_menu.css",
-		// "/assets/css/sp_menu.css"
 	),
 	'inline' => array(
 	)
