@@ -100,6 +100,7 @@ $stylesheets = array(
 
 	'external' => array(
 		"/assets/css/header_blu.css",
+		"/assets/css/footer_blu.css",
 		"/assets/slick/slick.css",
 		"/assets/slick/slick-theme.css",
 		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
