@@ -5,6 +5,18 @@
 
 body {
   background-color: white;
+  width: 100%;
+  margin: 0px;
+}
+
+.row {
+  width: 100%;
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  margin: 0px;
 }
 
 .clearfix {
@@ -55,7 +67,6 @@ li.nav__item a {
 @media (min-width: 600px) {
   .nav__wrapper {
     display: flex;
-    margin-bottom: 0px;
   }
 }
 
@@ -115,6 +126,7 @@ li.nav__item a {
   margin-left: auto;
   margin-right: auto;
   border-bottom: 2px solid #2036c2;
+  width: 100%;
 }
 
 .logo {
@@ -132,7 +144,7 @@ li.nav__item a {
 .arrowed-title {
   color: black;
   /* background-color: transparent; */
-  background-image: url("../img/arrow.svg");
+  background-image: url("../arrow.svg");
   background-repeat: no-repeat;
   background-size: 130px;
   background-position: 3% 106%;
@@ -141,6 +153,7 @@ li.nav__item a {
   z-index: 10;
   font-size: 24px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 30%;
 }
 
 #header-link {
@@ -232,7 +245,7 @@ a.arrowed-link img {
 }
 
 .slick-next, .slick-prev {
-  background-image: url("../img/Daco_4829759.png") !important;
+  background-image: url("../Daco_4829759.png") !important;
   background-position-x: center !important;
   background-position-y: center !important;
   background-size: 100% 100% !important;
@@ -243,3 +256,4 @@ a.arrowed-link img {
   /* transform: rotate(180deg); */
   transform: rotate(180deg) !important;
 }
+
