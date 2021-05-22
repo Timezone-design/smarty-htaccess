@@ -54,6 +54,7 @@ $javascript = array(
 
 		'external' => array(
 			"/assets/js/header_blu.js",
+			"/assets/slick/slick.min.js",
 			// "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
 			// "https://www.kts-web.com/ajax/jquery.min.js"
 		),
@@ -69,6 +70,8 @@ $stylesheets = array(
 
 	'external' => array(
 		"/assets/css/header_blu.css",
+		"/assets/slick/slick.css",
+		"/assets/slick/slick-theme.css",
 		// "/assets/css/web_r.css",
 		// "/assets/css/header_r.css",
 		// "/assets/css/pc_left_menu.css",
@@ -78,10 +81,10 @@ $stylesheets = array(
 );
 
 $search_values = array(
-	'manufacturer' => isset($_POST["manufacturer"]) ? $_POST["manufacturer"] : "";
-	'type' => isset($_POST["type"]) ? $_POST["type"] : "";
-	'model' => isset($_POST["model"]) ? $_POST["model"] : "";
-	'pattern' => isset($_POST["pattern"]) ? $_POST["pattern"] : "";
+	'manufacturer' => isset($_POST["manufacturer"]) ? $_POST["manufacturer"] : "",
+	'type' => isset($_POST["type"]) ? $_POST["type"] : "",
+	'model' => isset($_POST["model"]) ? $_POST["model"] : "",
+	'pattern' => isset($_POST["pattern"]) ? $_POST["pattern"] : "",
 );
 
 $smarty->assign(array(
