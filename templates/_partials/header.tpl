@@ -10,7 +10,7 @@
           
         </button> -->
                 <ul class="nav__wrapper">
-                    <li class="nav__item"><a href="#"><span class="ja">トップ</span><span class="en">TOP</span></a></li>
+                    <li class="nav__item"><a href="/"><span class="ja">トップ</span><span class="en">TOP</span></a></li>
                     <li class="nav__item"><a href="#"><span class="ja">ショップメニュー</span><span class="en">SHOP
                                 MENU</span></a></li>
                     <li class="nav__item"><a href="#"><span class="ja">オリジナル商品</span><span class="en">ORIGINAL

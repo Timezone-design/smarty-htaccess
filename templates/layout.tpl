@@ -18,8 +18,6 @@
         {/block}
       </header>
 
-      <h1>{$page.content}</h1>
-
       <section id="wrapper">
         <div class="container">
 

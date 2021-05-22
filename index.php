@@ -2,8 +2,8 @@
 $uri = $_GET['uri'];
 
 // echo "$folder1/$folder2/$folder3/$file-$cat-$item";
-require(__DIR__.'/smarty/libs/Smarty.class.php');
-$smarty = new Smarty;
+require(__DIR__.'/smarty/libs/SmartyBC.class.php');
+$smarty = new SmartyBC;
 //$smarty->force_compile = true;
 $smarty->debugging = false;
 $smarty->caching = true;
@@ -121,7 +121,8 @@ $smarty->assign(array(
 	'javascript' => $javascript,
 	'js_custom_vars' => $js_custom_vars,
 	'page' => $page,
-	'search_values' => $search_values
+	'search_values' => $search_values,
+	'base_url' => __DIR__
 ));
 
 $smarty->display($templates[(int) $page['id_template']]);
