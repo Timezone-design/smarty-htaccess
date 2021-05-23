@@ -9,6 +9,11 @@ body {
   margin: 0px;
 }
 
+div.container {
+  max-width: 1920px;
+  padding: 0px;
+}
+
 .row {
   width: 100%;
   margin: 0px;
@@ -21,9 +26,14 @@ header {
 
 .clearfix {
   display: block;
-  background-color: white;
+  /* background-color: white; */
+  background-color: transparent;
   color: transparent;
   height: 44px;
+}
+
+header .clearfix {
+  background-color: white;
 }
 
 /* Header nav css */
@@ -144,7 +154,7 @@ li.nav__item a {
 }
 
 .ja {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif !important;
 }
 
 /* Header Carousel css */
@@ -156,12 +166,18 @@ li.nav__item a {
   background-repeat: no-repeat;
   background-size: 130px;
   background-position: 17% 106%;
-  padding-bottom: 10px;
-  padding-right: 150px;
+  padding-bottom: 5px;
   z-index: 10;
   font-size: 24px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width: 30%;
+  display: inline-block;
+  /* padding-right: 100%; */
+  /* width: 30%; */
+  /* position: absolute; */
+  position: relative;
+  left: 86px;
+  min-width: 200px;
+  margin-bottom: 30px;
 }
 
 #header-link {
@@ -184,6 +200,8 @@ a.arrowed-link img {
   position: absolute;
   top: 178px;
   left: 86px;
+  width: 20%;
+  background-position: 30% 106%;
 }
 
 #top-carousel {
@@ -206,7 +224,7 @@ a.arrowed-link img {
 }
 
 .slick-slide img {
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
   height: 100%;
 }
 
@@ -264,4 +282,3 @@ a.arrowed-link img {
   /* transform: rotate(180deg); */
   transform: rotate(180deg) !important;
 }
-
