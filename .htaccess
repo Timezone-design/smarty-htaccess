@@ -1,6 +1,6 @@
-Options -MultiViews
 RewriteEngine on
 
+RewriteBase /smarty-htaccess/
 RewriteRule ^blog/(.*)$ %{ENV:REWRITEBASE}blog/$1 [QSA,L]
 RewriteRule ^assets/(.*)$ %{ENV:REWRITEBASE}assets/$1 [QSA,L]
 

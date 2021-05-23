@@ -1,6 +1,5 @@
 <?php
-$uri = $_GET['uri'];
-
+$uri = isset($_GET['uri']) ? $_GET['uri'] : '';
 // echo "$folder1/$folder2/$folder3/$file-$cat-$item";
 require(__DIR__.'/smarty/libs/Smarty.class.php');
 $smarty = new Smarty;
@@ -101,6 +100,7 @@ $stylesheets = array(
 		"https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
 		// "/assets/css/reset.min.css",
 		"/assets/css/header_blu.css",
+		"/assets/css/mainbody_blu.css",
 		"/assets/css/footer_blu.css",
 		"/assets/slick/slick.css",
 		"/assets/slick/slick-theme.css",

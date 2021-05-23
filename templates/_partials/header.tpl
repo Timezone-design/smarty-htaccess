@@ -34,11 +34,10 @@
     <div id="top-carousel" class="row">
         <h1 id="header-carousel-name" class="arrowed-title">PICK UP</h1>
         <div class="gallery-wrapper">
-            <div><img src="/assets/img/Screenshot_1.png" data-index="1"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="2"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="3"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="4"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="5"></div>
+            <div><img src="/assets/img/home/hks_202103_05_camp_480.gif" data-index="1"></div>
+            <div><img src="/assets/img/home/liqui_moly_dpf_480.gif" data-index="2"></div>
+            <div><img src="/assets/img/home/mahle_ozone_pro_480.gif" data-index="3"></div>
+            <div><img src="/assets/img/home/tire_wheel_480.gif" data-index="4"></div>
         </div>
     </div>
     <div class="clearfix"></div>

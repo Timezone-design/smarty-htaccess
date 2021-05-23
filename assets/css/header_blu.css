@@ -50,6 +50,10 @@ li.nav__item a {
   font-family: "Roboto", sans-serif;
 }
 
+.nav__item:hover {
+  background-color: grey;
+}
+
 @media (min-width: 600px) {
   .site-header__wrapper {
     display: flex;
@@ -67,11 +71,14 @@ li.nav__item a {
 @media (min-width: 600px) {
   .nav__wrapper {
     display: flex;
+    margin-bottom: 0px;
+    list-style: none;
   }
 }
 
 @media (max-width: 599px) {
   .nav__wrapper {
+    list-style: none;
     position: absolute;
     top: 100%;
     right: 0;
@@ -85,6 +92,7 @@ li.nav__item a {
   }
 
   .nav__wrapper.active {
+    list-style: none;
     visibility: visible;
     opacity: 1;
     transform: translateY(0);
@@ -147,7 +155,7 @@ li.nav__item a {
   background-image: url("../img/arrow.svg");
   background-repeat: no-repeat;
   background-size: 130px;
-  background-position: 3% 106%;
+  background-position: 17% 106%;
   padding-bottom: 10px;
   padding-right: 150px;
   z-index: 10;
