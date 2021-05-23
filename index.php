@@ -1,5 +1,7 @@
 <?php
 $uri = isset($_GET['uri']) ? $_GET['uri'] : '';
+
+// die($uri);
 // echo "$folder1/$folder2/$folder3/$file-$cat-$item";
 require(__DIR__.'/smarty/libs/Smarty.class.php');
 $smarty = new Smarty;
@@ -40,6 +42,7 @@ while (($row = fgetcsv($handle, 0, ",")) !== false)
 }
 
 fclose($handle);
+
 
 
 $js_custom_vars = array(

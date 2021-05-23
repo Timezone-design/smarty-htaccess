@@ -232,6 +232,7 @@ a.arrowed-link img {
   transform: scale(.3) !important;
   opacity: 0.3 !important;
 }
+
 .slick-slide.slick-current.slick-active.slick-center img {
   transform: scale(1);
 }
