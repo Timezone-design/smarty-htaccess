@@ -1,7 +1,7 @@
 <?php
 $uri = isset($_GET['uri']) ? $_GET['uri'] : '';
 
-// die($uri);
+// die("1".$uri."1");
 // echo "$folder1/$folder2/$folder3/$file-$cat-$item";
 require(__DIR__.'/smarty/libs/Smarty.class.php');
 $smarty = new Smarty;
@@ -128,4 +128,5 @@ $smarty->assign(array(
 	'search_values' => $search_values
 ));
 
-$smarty->display($templates[(int) $page['id_template']]);
+// $smarty->display($templates[(int) $page['id_template']]);
+$smarty->display($templates[(int) 2]);

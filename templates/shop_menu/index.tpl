@@ -2,7 +2,127 @@
 {extends file='layout.tpl'}
 
 {block name="content"}
-	<div class="top_set_new_tb">
+	<div class="grey-wrapper">
+		<div class="clearfix"></div>
+		<div class="arrowed-title"><h1 class="ja">人気メニュー</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset=""></div>
+		<div class="four-square row">
+			<div class="four-square-one col-md-6">
+				<a href="/shop_menu/set/ch_ma/aircon_cc.html"><img src="/assets/img/shop_menu/top_1.png" alt="Top 1" srcset=""></a>
+			</div>
+			<div class="four-square-one col-md-6">
+				<a href="/shop_menu/set/ch_ma/10674.html"><img src="/assets/img/shop_menu/top_2.png" alt="Top 1" srcset=""></a>
+			</div>
+			<div class="four-square-one col-md-6">
+				<a href="/shop_menu/set/shop_menu/set/item/10108.php"><img src="/assets/img/shop_menu/top_3.png" alt="Top 1" srcset=""></a>
+			</div>
+			<div class="four-square-one col-md-6">
+				<a href="/shop_menu/set/item/10190.php"><img src="/assets/img/shop_menu/top_4.png" alt="Top 1" srcset=""></a>
+			</div>
+		</div>
+	</div>
+	<div class="white-wrapper">
+		<div class="three-tiles row">
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_1.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja">バーツ販売だけでなく取り付けまで一貸して対応いたします。</span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_2.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_3.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+		</div>
+		<div class="three-tiles row">
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_4.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_5.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_6.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+		</div>
+		<div class="three-tiles row">
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_7.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_8.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_9.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+		</div>
+		<div class="three-tiles row">
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_10.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_11.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_12.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+		</div>
+		<div class="three-tiles row">
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_13.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_14.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+			<div class="three-tiles-one col-md-4">
+				<img src="/assets/img/shop_menu/mid_15.png" alt="" srcset="">
+				<span class="three-tiles-blue-border">Suspension</span>
+				<span class="three-tiles-title ja">足回り</span>
+				<span class="three-tiles-text ja"></span>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="top_set_new_tb">
 		<div class="top_set_new_cell1">
 			<a href="/shop_menu/set/item/10187.php">
 				<img src="/assets/img/set/top_180/tein_street_advance_z_180.gif" alt="TEIN STREET ADVANCE Z取付SETメニュー">
@@ -47,11 +167,9 @@
 	    <li><a href="/shop_menu/set/cat/103.html"><img src="/assets/img/cat_img/103.jpg" alt="ブレーキ_brake">ブレーキ</a></li>
 	    <li><a href="/shop_menu/set/cat/111.html"><img src="/assets/img/cat_img/111.jpg" alt="電装系_electric">電装系</a></li>
 	    <li><a href="/shop_menu/set/cat/113.html"><img src="/assets/img/cat_img/113.jpg" alt="インテリア_interior">インテリア</a></li>
-	<!-- 
 	    <li><a href="/shop_menu/set/cat/114.html"><img src="/assets/img/cat_img/114.jpg" alt="エクステリア_exterior">エクステリア</a></li>
-	-->
 	    <li><a href="/shop_menu/set/cat/112.html"><img src="/assets/img/cat_img/112.jpg" alt="ケミカル_chemical">ケミカル</a></li>
 	    <li><a href="/shop_menu/set/cat/110.html"><img src="/assets/img/cat_img/110.jpg" alt="タイヤ・ホイール_tire&wheel">タイヤ・ホイール</a></li>
 	    <li><a href="br/1162-115.html"><img src="/assets/img/cat_img/115.jpg" alt="その他サービス_service">その他サービス</a></li>
-	</ul>
+	</ul> -->
 {/block}

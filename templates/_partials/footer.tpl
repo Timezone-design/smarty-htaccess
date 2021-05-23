@@ -1,6 +1,6 @@
 <footer>
     <div class="footer-title">
-        <h1 id="footer-title" class="arrowed-title">店舗情報</h1>
+        <div id="footer-title" class="arrowed-title"><h1 class="ja">店舗情報</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset=""></div>
     </div>
     <div class="footer-places row">
         <div class="footer-showbox col-md-4">
@@ -96,7 +96,7 @@
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/ichinoe.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/ichinoe.html"><span class="ja">詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
     </div>

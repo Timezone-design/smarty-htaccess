@@ -32,7 +32,7 @@
     </div>
     <div class="clearfix"></div>
     <div id="top-carousel" class="row">
-        <h1 id="header-carousel-name" class="arrowed-title">PICK UP</h1>
+        <div id="header-carousel-name" class="arrowed-title"><h1>PICK UP</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset=""></div>
         <div class="gallery-wrapper">
             <div><img src="/assets/img/home/hks_202103_05_camp_480.gif" data-index="1"></div>
             <div><img src="/assets/img/home/liqui_moly_dpf_480.gif" data-index="2"></div>

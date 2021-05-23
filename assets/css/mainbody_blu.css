@@ -25,9 +25,9 @@
     padding-top: 56%;
 }
 
-.four-of-a-kind-one a * {
+/* .four-of-a-kind-one a * {
     color: white;
-}
+} */
 
 #menu_title {
   background-position: 32% 106%;
@@ -73,4 +73,39 @@
     font-size: 13px;
     width: auto;
     margin: auto;
+}
+
+.four-square {
+    width: 72%;
+    margin: auto;
+}
+
+.four-square-one {
+    width: 50%;
+    padding: 27px 15px;
+    display: inline-block;
+    /* float:left; */
+}
+
+.four-square-one img {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 1px 8px 0 rgb(0 0 0 / 19%);
+}
+
+.grey-wrapper {
+    background-color: #ececec;
+}
+
+.white-wrapper {
+    background-color: white;
+}
+
+.three-tiles {
+    width: 87%;
+    margin: auto;
+}
+
+.three-tiles-one {
+    padding: 14px;
 }
