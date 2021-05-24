@@ -30,4 +30,5 @@ if ($_smarty_tpl->tpl_vars['page']->value['id_template'] == 1) {
 	}
 
 	fclose($handle);
+	}
 ?>

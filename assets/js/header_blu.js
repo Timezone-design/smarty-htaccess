@@ -1,37 +1,18 @@
-////////////////
-// Header Nav js
+// $('.jcarousel-wrapper .jcarousel li:nth-of-type(4) img').css({'transform': 'scale(1)', 'opacity': '1'}); 
+// $('.jcarousel-wrapper .jcarousel li:nth-of-type(2) img').css({'transform': 'scale(1)', 'opacity': '1'});
 
-// let navToggle = document.querySelector(".nav__toggle");
-// let navWrapper = document.querySelector(".nav__wrapper");
+$('.jcarousel-control-next').click(function() {
+    console.log('next pressed');
+    $('.jcarousel-wrapper .jcarousel li:nth-of-type(4) img').css({'transform': 'scale(1)', 'opacity': '1'}); 
+    $('.jcarousel-wrapper .jcarousel li:nth-of-type(2) img').css({'transform': 'scale(1)', 'opacity': '1'});
+    $('.jcarousel-wrapper .jcarousel li:nth-of-type(1) img').css({'transform': 'scale(0.5)', 'opacity': '0.5'}); 
+    $('.jcarousel-wrapper .jcarousel li:nth-of-type(3) img').css({'transform': 'scale(0.5)', 'opacity': '0.5'});
+});
 
-// navToggle.addEventListener("click", function () {
-//   if (navWrapper.classList.contains("active")) {
-//     this.setAttribute("aria-expanded", "false");
-//     this.setAttribute("aria-label", "menu");
-//     navWrapper.classList.remove("active");
-//   } else {
-//     navWrapper.classList.add("active");
-//     this.setAttribute("aria-label", "close menu");
-//     this.setAttribute("aria-expanded", "true");
-//   }
-// });
-
-// $(function () {
-//     $('a.page-scroll').bind('click', function (event) {
-//         var $anchor = $(this);
-//         $('html, body').stop().animate({
-//             scrollTop: $($anchor.attr('href')).offset().top
-//         }, 1500, 'easeInOutExpo');
-//         event.preventDefault();
-//     });
-// });
-
-// // Highlight the top nav as scrolling occurs
-// $('body').scrollspy({
-//     target: '.navbar-fixed-top'
-// })
-
-// // Closes the Responsive Menu on Menu Item Click
-// $('.navbar-collapse ul li a').click(function () {
-//     $('.navbar-toggle:visible').click();
-// });
+$('.jcarousel-control-prev').click(function() {
+    console.log('prev pressed');
+    $('.jcarousel-wrapper .jcarousel li:nth-of-type(3) img').css({'transform': 'scale(1)', 'opacity': '1'}); 
+    $('.jcarousel-wrapper .jcarousel li:nth-of-type(1) img').css({'transform': 'scale(1)', 'opacity': '1'});
+    $('.jcarousel-wrapper .jcarousel li:nth-of-type(4) img').css({'transform': 'scale(0.5)', 'opacity': '0.5'}); 
+    $('.jcarousel-wrapper .jcarousel li:nth-of-type(2) img').css({'transform': 'scale(0.5)', 'opacity': '0.5'});
+});

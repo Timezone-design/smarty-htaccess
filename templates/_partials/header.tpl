@@ -69,7 +69,7 @@
                 </ul>
             </div>
             <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹</a>
-            <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>.
+            <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>
             <p class="jcarousel-pagination" data-jcarouselpagination="true">
                 <a href="#1" class="active">1</a>
                 <a href="#2" class="">2</a>

@@ -21,7 +21,7 @@
 }
 
 .footer-showbox-title {
-    font-size: xx-large;
+    font-size: 2vw;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -38,6 +38,7 @@
 
 .showbox-content td {
     padding-bottom: 40px;
+    font-size: 1vw;
 }
 
 .footer-places > div.footer-showbox:nth-of-type(odd) {
@@ -64,12 +65,12 @@
 }
 
 .additional-info {
-    font-size: small;
+    font-size: 1vw;
 }
 
 .footer-text .company-title {
     color: white;
-    font-size: xx-large;
+    font-size: 2vw;
 }
 
 .footer-text {
@@ -78,7 +79,11 @@
 
 .copyright {
     text-align: center;
-    font-size: small;
+    font-size: 1vw;
+}
+
+.copyright span {
+    margin: auto;
 }
 
 #footer-logo-wrap {
