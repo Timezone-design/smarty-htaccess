@@ -1,3 +1,7 @@
+/* img {
+    width: 100%;
+} */
+
 .four-of-a-kind-one {
     background-size: contain;
     background-repeat: no-repeat;
@@ -25,9 +29,9 @@
     padding-top: 56%;
 }
 
-.four-of-a-kind-one a * {
+/* .four-of-a-kind-one a * {
     color: white;
-}
+} */
 
 #menu_title {
   background-position: 32% 106%;
@@ -73,4 +77,105 @@
     font-size: 13px;
     width: auto;
     margin: auto;
+}
+
+.four-square {
+    width: 72%;
+    margin: auto;
+}
+
+.four-square-one {
+    width: 50%;
+    padding: 27px 15px;
+    display: inline-block;
+    /* float:left; */
+}
+
+.four-square-one img {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 1px 8px 0 rgb(0 0 0 / 19%);
+}
+
+.grey-wrapper {
+    background-color: #ececec;
+}
+
+.white-wrapper {
+    background-color: white;
+}
+
+.three-tiles {
+    width: 87%;
+    margin: auto;
+}
+
+.three-tiles-one {
+    padding: 14px;
+    position: relative;
+}
+
+.three-tiles-one img {
+    /* filter: blur(10px); */
+    width: 100%;
+    /* visibility: hidden; */
+    /* height: 341px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 0% 0%; */
+}
+
+a.notype, a.notype:hover, a.notype:active, a.notype:visited, a.notype:link {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.three-tiles span {
+    display: block;
+    text-align: center;
+    display: none;
+}
+
+.three-tiles-one .three-tiles-blue-border {
+    font-size: 400%;
+    color: transparent;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+    -webkit-text-stroke: 2px #2036c2;
+    /* display: block; */
+    /* position: absolute;
+    top: 97px; */
+    text-align: left;
+}
+
+.three-tiles-title {
+    font-size: 27px;
+    font-weight: bold;
+    padding: 13px 0px;
+}
+
+.three-tiles-one {
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    /* min-height: 600px;
+    height: auto;
+    overflow: auto; */
+}
+
+.four-tiles-one {
+    text-align: center;
+}
+
+.four-tiles-one img, .four-tiles-one span {
+    display: block;
+}
+
+.four-tiles-one img, .small-category-top-img img {
+    width: 100%;
+}
+
+.four-tiles-title {
+    font-size: 27px;
+    font-weight: bold;
+    padding: 13px 0px;
 }

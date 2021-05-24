@@ -1,7 +1,7 @@
 <?php
 $uri = isset($_GET['uri']) ? $_GET['uri'] : '';
 
-// die($uri);
+// die("1".$uri."1");
 // echo "$folder1/$folder2/$folder3/$file-$cat-$item";
 require(__DIR__.'/smarty/libs/SmartyBC.class.php');
 $root_dir = __DIR__;
@@ -56,59 +56,32 @@ $javascript = array(
 	'head' => array(
 
 		'external' => array(
-			"https://code.jquery.com/jquery-1.11.0.min.js",
-			"https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+			"https://code.jquery.com/jquery-3.3.1.slim.min.js",
+			"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js",
+			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
+			"/assets/jcarousel/jquery.jcarousel.min.js",
+			"/assets/jcarousel/jcarousel.responsive.js",
 		),
 		'inline' => array()
 	),
 	'bottom' => array(
 		'external' => array(
 			"/assets/js/header_blu.js",
-			"/assets/slick/slick.min.js",
 		),
-		'inline' => array(
-			"$(document).ready(function () {
-				$('.gallery-wrapper').slick({
-				  centerMode: true,
-				  centerPadding: '0px',
-				  slidesToShow: 3,
-				  // variableWidth: true,
-				  responsive: [{
-					  breakpoint: 768,
-					  settings: {
-						arrows: false,
-						centerMode: true,
-						centerPadding: '40px',
-						slidesToShow: 3
-					  }
-					},
-					{
-					  breakpoint: 480,
-					  settings: {
-						arrows: false,
-						centerMode: true,
-						centerPadding: '40px',
-						slidesToShow: 1
-					  }
-					}
-				  ]
-				});
-			  });",
-		)
+		'inline' => array()
 	)
 );
 
 $stylesheets = array(
 
 	'external' => array(
-		"https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
-		// "/assets/css/reset.min.css",
 		"/assets/css/search.css",
+		"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
 		"/assets/css/header_blu.css",
 		"/assets/css/mainbody_blu.css",
 		"/assets/css/footer_blu.css",
-		"/assets/slick/slick.css",
-		"/assets/slick/slick-theme.css",
+		"/assets/jcarousel/jcarousel.responsive.css",
+		"/assets/jcarousel/style.css",
 		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
 	),
 	'inline' => array(
@@ -131,4 +104,5 @@ $smarty->assign(array(
 	'base_url' => __DIR__
 ));
 
-$smarty->display($templates[(int) $page['id_template']]);
+// $smarty->display($templates[(int) $page['id_template']]);
+$smarty->display($templates[(int) 1]);
