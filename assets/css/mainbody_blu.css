@@ -1,3 +1,7 @@
+/* img {
+    width: 100%;
+} */
+
 .four-of-a-kind-one {
     background-size: contain;
     background-repeat: no-repeat;
@@ -156,4 +160,22 @@ a.notype, a.notype:hover, a.notype:active, a.notype:visited, a.notype:link {
     /* min-height: 600px;
     height: auto;
     overflow: auto; */
+}
+
+.four-tiles-one {
+    text-align: center;
+}
+
+.four-tiles-one img, .four-tiles-one span {
+    display: block;
+}
+
+.four-tiles-one img, .small-category-top-img img {
+    width: 100%;
+}
+
+.four-tiles-title {
+    font-size: 27px;
+    font-weight: bold;
+    padding: 13px 0px;
 }
