@@ -18,6 +18,7 @@ if ($_smarty_tpl->tpl_vars['page']->value['id_template'] == 1) {
 	fclose($handle);
 
 	if($car_manu != ''){
+		$start = time();
 		$file = $root_dir.'/db/item.gz';
 		$handle = gzopen($file, "rb");
     	
@@ -39,6 +40,7 @@ if ($_smarty_tpl->tpl_vars['page']->value['id_template'] == 1) {
 		}
 
 		gzclose($handle);
+		echo time()-$start;
 	}
 
 	// var_dump($products[1]);
