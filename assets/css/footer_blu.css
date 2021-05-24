@@ -12,6 +12,7 @@
 .footer-showbox-img img {
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 .footer-showbox-img {
@@ -59,7 +60,7 @@
 }
 
 .footer-bottom .footer-text div {
-    padding-bottom: 18px;
+    padding-bottom: 10px;
 }
 
 .additional-info {
