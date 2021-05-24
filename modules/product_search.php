@@ -19,7 +19,7 @@ if ($_smarty_tpl->tpl_vars['page']->value['id_template'] == 1) {
 
 	if($car_manu != ''){
 		$file = $root_dir.'/db/item.gz';
-		$handle = gzopen($tempfile, "rb");
+		$handle = gzopen($file, "rb");
     	
 		// $handle = fopen($file, "r");
 		$products = json_decode(gzread($handle, 150000000));
