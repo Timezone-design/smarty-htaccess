@@ -1,6 +1,5 @@
-{include_php file=$base_url|cat:'/modules/product_search.php'}
 {block name='product_search'}
-<p>{$sample}</p>
+{include_php file=$base_url|cat:'/modules/product_search.php'}
   {if $page.id_template == 1}
   <div class="search-block">
     <h1 class="search">SEARCH</h1>

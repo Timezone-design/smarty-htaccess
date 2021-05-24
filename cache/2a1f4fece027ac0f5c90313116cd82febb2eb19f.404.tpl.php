@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-05-22 22:44:58
+/* Smarty version 3.1.39, created on 2021-05-24 09:27:17
   from 'C:\xampp\htdocs\test\templates\404.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_60a96d4a384139_63285331',
+  'unifunc' => 'content_60ab555565c539_22786598',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'c0e2861834f40e1eefb569a567393b7338313845' => 
     array (
       0 => 'C:\\xampp\\htdocs\\test\\templates\\layout.tpl',
-      1 => 1621715372,
+      1 => 1621719082,
       2 => 'file',
     ),
     'a49786ade115612b7829a286b1e6186701c4f77d' => 
@@ -42,19 +42,19 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     '2fb3ad9473cad9b05b8ea91642c341d69e53d164' => 
     array (
       0 => 'C:\\xampp\\htdocs\\test\\templates\\_partials\\header.tpl',
-      1 => 1621713035,
+      1 => 1621719039,
       2 => 'file',
     ),
     '2ab7bac7fd3ae4079aa2d2c859dc90a0b0784a8b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\test\\templates\\_partials\\footer.tpl',
-      1 => 1621712983,
+      1 => 1621718678,
       2 => 'file',
     ),
   ),
   'cache_lifetime' => 120,
 ),true)) {
-function content_60a96d4a384139_63285331 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60ab555565c539_22786598 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html>
@@ -89,11 +89,12 @@ function content_60a96d4a384139_63285331 (Smarty_Internal_Template $_smarty_tpl)
 
   
     
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="/assets/css/header_blu.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/mainbody_blu.css" type="text/css">
   <link rel="stylesheet" href="/assets/css/footer_blu.css" type="text/css">
   <link rel="stylesheet" href="/assets/slick/slick.css" type="text/css">
   <link rel="stylesheet" href="/assets/slick/slick-theme.css" type="text/css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" type="text/css">
 
   
@@ -132,20 +133,20 @@ function content_60a96d4a384139_63285331 (Smarty_Internal_Template $_smarty_tpl)
         </button> -->
                 <ul class="nav__wrapper">
                     <li class="nav__item"><a href="/"><span class="ja">トップ</span><span class="en">TOP</span></a></li>
-                    <li class="nav__item"><a href="#"><span class="ja">ショップメニュー</span><span class="en">SHOP
+                    <li class="nav__item"><a href="/shop_menu/set/index.html"><span class="ja">ショップメニュー</span><span class="en">SHOP
                                 MENU</span></a></li>
-                    <li class="nav__item"><a href="#"><span class="ja">オリジナル商品</span><span class="en">ORIGINAL
+                    <li class="nav__item"><a href="/original_product/index.html"><span class="ja">オリジナル商品</span><span class="en">ORIGINAL
                                 PRODUCT</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">タイヤ・ホイール</span><span class="en">TIRE /
+                    <li class="nav__item"><a href="/tire_wheel/index.html"><span class="ja">タイヤ・ホイール</span><span class="en">TIRE /
                                 WHEEL</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">キャンペーン</span><span class="en">CAMPAIGN</span></a>
+                    <li class="nav__item"><a href="/campaign/index.html"><span class="ja">キャンペーン</span><span class="en">CAMPAIGN</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">業販</span><span class="en">WHOLESALE</span></a>
+                    <li class="nav__item"><a href="/wholesale/index.html"><span class="ja">業販</span><span class="en">WHOLESALE</span></a>
                     </li>
-                    <li class="nav__item"><a href="#"><span class="ja">ブログ</span><span class="en">BLOG</span></a></li>
-                    <li class="nav__item"><a href="#"><span class="ja">会社概要</span><span class="en">COMPANY</span></a>
+                    <li class="nav__item"><a href="/blog/"><span class="ja">ブログ</span><span class="en">BLOG</span></a></li>
+                    <li class="nav__item"><a href="/company.html"><span class="ja">会社概要</span><span class="en">COMPANY</span></a>
                     </li>
                 </ul>
             </nav>
@@ -155,11 +156,10 @@ function content_60a96d4a384139_63285331 (Smarty_Internal_Template $_smarty_tpl)
     <div id="top-carousel" class="row">
         <h1 id="header-carousel-name" class="arrowed-title">PICK UP</h1>
         <div class="gallery-wrapper">
-            <div><img src="/assets/img/Screenshot_1.png" data-index="1"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="2"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="3"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="4"></div>
-            <div><img src="/assets/img/Screenshot_1.png" data-index="5"></div>
+            <div><img src="/assets/img/home/hks_202103_05_camp_480.gif" data-index="1"></div>
+            <div><img src="/assets/img/home/liqui_moly_dpf_480.gif" data-index="2"></div>
+            <div><img src="/assets/img/home/mahle_ozone_pro_480.gif" data-index="3"></div>
+            <div><img src="/assets/img/home/tire_wheel_480.gif" data-index="4"></div>
         </div>
     </div>
     <div class="clearfix"></div>
@@ -174,7 +174,7 @@ function content_60a96d4a384139_63285331 (Smarty_Internal_Template $_smarty_tpl)
         <div class="container">
 
           
-            <div id="content-wrapper" class="left-column right-column col-sm-4 col-md-6">
+            <div id="content-wrapper">
               
       <p>Page Not Found.</p>
     
@@ -220,7 +220,7 @@ function content_60a96d4a384139_63285331 (Smarty_Internal_Template $_smarty_tpl)
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="#"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/factory.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
         <div class="footer-showbox col-md-4">
@@ -252,7 +252,7 @@ function content_60a96d4a384139_63285331 (Smarty_Internal_Template $_smarty_tpl)
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="#"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/heiwajima.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
         <div class="footer-showbox col-md-4">
@@ -284,7 +284,7 @@ function content_60a96d4a384139_63285331 (Smarty_Internal_Template $_smarty_tpl)
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="#"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/ichinoe.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
     </div>
@@ -296,12 +296,12 @@ function content_60a96d4a384139_63285331 (Smarty_Internal_Template $_smarty_tpl)
             </div>
         </div>
         <div class="footer-text col-md-8">
-            <div class="company-title">K T S---</div>
+            <div class="company-title">K T S — — —</div>
             <div class="additional-info">フッターです</div>
             <div class="additional-info">フッターです</div>
             <div class="additional-info">フッターです</div>
         </div>
-        <div class="copyright row"><span>&copy; ------</span></div>
+        <div class="copyright row"><span>&copy; — — — — — —</span></div>
     </div>
 </footer>        
       </footer>

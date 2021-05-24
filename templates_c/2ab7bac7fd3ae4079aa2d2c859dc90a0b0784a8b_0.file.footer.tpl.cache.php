@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-05-22 21:53:34
+/* Smarty version 3.1.39, created on 2021-05-22 23:27:40
   from 'C:\xampp\htdocs\test\templates\_partials\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_60a9613eaf4213_74792284',
+  'unifunc' => 'content_60a9774cbe46c5_06224822',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2ab7bac7fd3ae4079aa2d2c859dc90a0b0784a8b' => 
     array (
       0 => 'C:\\xampp\\htdocs\\test\\templates\\_partials\\footer.tpl',
-      1 => 1621712983,
+      1 => 1621718678,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60a9613eaf4213_74792284 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '176718558660a9613eaf14b5_23950518';
+function content_60a9774cbe46c5_06224822 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '46356663560a9774cb9dcf8_03792129';
 ?>
 <footer>
     <div class="footer-title">
@@ -57,7 +57,7 @@ $_smarty_tpl->compiled->nocache_hash = '176718558660a9613eaf14b5_23950518';
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="#"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/factory.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
         <div class="footer-showbox col-md-4">
@@ -89,7 +89,7 @@ $_smarty_tpl->compiled->nocache_hash = '176718558660a9613eaf14b5_23950518';
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="#"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/heiwajima.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
         <div class="footer-showbox col-md-4">
@@ -121,7 +121,7 @@ $_smarty_tpl->compiled->nocache_hash = '176718558660a9613eaf14b5_23950518';
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="#"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/ichinoe.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
     </div>
@@ -133,12 +133,12 @@ $_smarty_tpl->compiled->nocache_hash = '176718558660a9613eaf14b5_23950518';
             </div>
         </div>
         <div class="footer-text col-md-8">
-            <div class="company-title">K T S---</div>
+            <div class="company-title">K T S — — —</div>
             <div class="additional-info">フッターです</div>
             <div class="additional-info">フッターです</div>
             <div class="additional-info">フッターです</div>
         </div>
-        <div class="copyright row"><span>&copy; ------</span></div>
+        <div class="copyright row"><span>&copy; — — — — — —</span></div>
     </div>
 </footer><?php }
 }
