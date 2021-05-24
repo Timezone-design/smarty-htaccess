@@ -18,11 +18,9 @@ if ($_smarty_tpl->tpl_vars['page']->value['id_template'] == 1) {
 	fclose($handle);
 
 	if($car_manu != ''){
-		$start = time();
 		$file = $root_dir.'/db/item.gz';
 		$handle = gzopen($file, "rb");
     	
-		// $handle = fopen($file, "r");
 		$products = json_decode(gzread($handle, 150000000));
 		
 		foreach ($products as $key => $product) {
@@ -40,10 +38,8 @@ if ($_smarty_tpl->tpl_vars['page']->value['id_template'] == 1) {
 		}
 
 		gzclose($handle);
-		echo time()-$start;
 	}
 
-	// var_dump($products[1]);
 ?>
 <div class="search-block" id="search-block">
 	<h1 class="search">SEARCH</h1>
