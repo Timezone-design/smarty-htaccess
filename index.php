@@ -58,7 +58,8 @@ $javascript = array(
 			"https://code.jquery.com/jquery-3.3.1.slim.min.js",
 			"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js",
 			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
-			"/assets/splider/js/splide.min.js",
+			"/assets/jcarousel/jquery.jcarousel.min.js",
+			"/assets/jcarousel/jcarousel.responsive.js",
 		),
 		'inline' => array()
 	),
@@ -66,13 +67,7 @@ $javascript = array(
 		'external' => array(
 			"/assets/js/header_blu.js",
 		),
-		'inline' => array(
-			"new Splide( '.splide', {
-				type: 'loop',
-				perPage: 3,
-				focus: 'center',
-			} ).mount();",
-		)
+		'inline' => array()
 	)
 );
 
@@ -83,7 +78,8 @@ $stylesheets = array(
 		"/assets/css/header_blu.css",
 		"/assets/css/mainbody_blu.css",
 		"/assets/css/footer_blu.css",
-		"/assets/splider/css/splide.min.css",
+		"/assets/jcarousel/jcarousel.responsive.css",
+		"/assets/jcarousel/style.css",
 		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
 	),
 	'inline' => array(

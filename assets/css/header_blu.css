@@ -149,7 +149,8 @@ a.arrowed-link.blue {
   }
 }
 
-/* splide */
-.splide__slide {
-  width: 30vw !important;
+/* slider */
+
+.jcarousel li {
+  width: 200px;
 }
