@@ -28,7 +28,7 @@
   {/block}
 
   {block name="product_search"}
-  	{include file='_partials/product_search.tpl'}
+    {include_php file=$base_url|cat:'/modules/product_search.php'}
   {/block}
 
   {block name="notice"}
