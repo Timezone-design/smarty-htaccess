@@ -2,7 +2,7 @@
 global $root_dir;
 $uri = $_smarty_tpl->tpl_vars['page']->value['uri'] . '#search-block';
 $id_template = $_smarty_tpl->tpl_vars['page']->value['id_template'];
-if ($id_template == 11 || $id_template == 24 || $id_template == 25) {
+if ($id_template == 1 || $id_template == 24 || $id_template == 25) {
 	$car_manu = isset($_POST['car_manu'])?$_POST['car_manu']:'';
 	$car_model_cat = isset($_POST['car_model_cat'])?$_POST['car_model_cat']:'';
 	$product_name = isset($_POST['product_name'])?$_POST['product_name']:'';
@@ -104,7 +104,7 @@ if ($id_template == 11 || $id_template == 24 || $id_template == 25) {
 	<?php } ?>
 </div>
 <?php
-}else if ($id_template == 1) {
+}else if ($id_template == 43) {
 	$inch = isset($_POST['inch'])?$_POST['inch']:'';
 	$tire_width = isset($_POST['tire_width'])?$_POST['tire_width']:'';
 	$flatness = isset($_POST['flatness'])?$_POST['flatness']:'';
