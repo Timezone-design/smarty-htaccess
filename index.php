@@ -56,7 +56,6 @@ $javascript = array(
 	'head' => array(
 
 		'external' => array(
-			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
 		),
 		'inline' => array()
 	),
@@ -64,6 +63,7 @@ $javascript = array(
 		'external' => array(
 			"https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
 			"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js",
+			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
 			"/assets/js/header_blu.js",
 		),
 		'inline' => array()
@@ -102,4 +102,4 @@ $smarty->assign(array(
 ));
 
 // $smarty->display($templates[(int) $page['id_template']]);
-$smarty->display($templates[(int) 2]);
+$smarty->display($templates[(int) 1]);
