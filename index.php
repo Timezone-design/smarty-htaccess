@@ -39,12 +39,38 @@ while (($row = fgetcsv($handle, 0, ",")) !== false)
     	'content' => (string) $row[5]
     );
 
-    if((string)$page['uri'] == (string)$uri) break;
+    if((string)$row[0] == (string)$uri){
+    	$id_template = (int) $row[1];
+    	break;
+    }
 }
 
 fclose($handle);
 
+if(array_search($id_template, [21,22,23,24,25,42,43]) !== false){
 
+	$file = __DIR__."/db/$id_template.csv";
+
+	$handle = fopen($file, "r");
+	$fields = fgetcsv($handle, 0, ",");
+	while (($row = fgetcsv($handle, 0, ",")) !== false) 
+	{
+		if((string)$row[0] == (string)$uri){
+
+	    	foreach ($fields as $key => $value) {
+	    		if($value == 'items')
+	    			$page[$value] = json_decode($row[$key]);
+	    		else
+	    			$page[$value] = $row[$key];	
+	    	}
+
+	    	break;
+	    }
+	}
+
+	fclose($handle);
+
+}
 
 $js_custom_vars = array(
 	'google_conversion_id' => 970727982,
