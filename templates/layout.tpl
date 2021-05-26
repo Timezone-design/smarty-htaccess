@@ -19,7 +19,7 @@
       </header>
 
       <section id="wrapper">
-        <div class="container">
+        <div class="section-container">
 
           {block name="content_wrapper"}
             <div id="content-wrapper">

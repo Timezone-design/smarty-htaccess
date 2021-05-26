@@ -7,10 +7,11 @@ body {
   background-color: white;
   width: 100%;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 div.container {
-  max-width: 1920px;
+  width: 100%;
   padding: 0px;
 }
 
@@ -43,8 +44,8 @@ header .clearfix {
 
 .arrowed-title {
   display: inline-block;
-  position: relative;
-  left: 86px;
+  position: absolute;
+  left: 6.25vw;
   margin-bottom: 30px;
 }
 
@@ -54,23 +55,79 @@ header .clearfix {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a.arrowed-link,
+a.arrowed-link:link,
+a.arrowed-link:visited,
+a.arrowed-link:hover,
+a.arrowed-link:active {
+  color: black;
+  text-decoration: none;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1vw;
+}
+
 .arrowed-title img {
-  width: 100%;
+  width: 10vw;
   position: absolute;
-  top: 24px;
+  top: 1.6vw;
   left: 34%;
+}
+
+@media all and (max-width: 1920px) and (min-width: 992px) {
+  .arrowed-title h1 {
+    color: black;
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  a.arrowed-link,
+  a.arrowed-link:link,
+  a.arrowed-link:visited,
+  a.arrowed-link:hover,
+  a.arrowed-link:active {
+    color: black;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1vw;
+  }
+
+  .arrowed-title img {
+    width: 10vw;
+    position: absolute;
+    top: 1.6vw;
+    left: 34%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .arrowed-title h1 {
+    color: black;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  a.arrowed-link,
+  a.arrowed-link:link,
+  a.arrowed-link:visited,
+  a.arrowed-link:hover,
+  a.arrowed-link:active {
+    color: black;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+  }
+
+  .arrowed-title img {
+    width: 99px;
+    position: absolute;
+    top: 1.6vw;
+    left: 34%;
+  }
 }
 
 #header-link {
   background-color: white;
   text-align: center;
-}
-
-a.arrowed-link, a.arrowed-link:link, a.arrowed-link:visited, a.arrowed-link:hover, a.arrowed-link:active {
-  color: black;
-  text-decoration: none;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1vw;
 }
 
 a.arrowed-link img {
@@ -93,14 +150,14 @@ a.arrowed-link.blue {
 
 #header-carousel-name {
   position: absolute;
-  top: 178px;
-  left: 86px;
+  top: 170px;
+  ;
+  left: 6.25vw;
   width: 8%;
-  min-width: 150px;
 }
 
 #top-carousel {
-  background-color:white;
+  background-color: white;
 }
 
 #header-link {
@@ -113,7 +170,8 @@ a.arrowed-link.blue {
   color: white;
 }
 
-.ml-auto, .mx-auto {
+.ml-auto,
+.mx-auto {
   margin-right: 9%;
 }
 
@@ -145,33 +203,74 @@ a.arrowed-link.blue {
   padding: 0 0 0 0;
 }
 
-@media all and (max-width: 1200px) and (min-width: 992px) {
+@media all and (min-width: 992px) {
   .navbar-dark .navbar-nav .nav-link {
     display: block;
-    margin-left: 10px;
+    margin: 5px;
   }
 }
 
-/* slider */
-/* 
-.jcarousel li {
-  width: 200px;
-} */
-
-.jcarousel-pagination {
-  display: none;
+.slick img {
+  display: block;
+  position: relative;
+  transform: translate(0, 0) scale(.4);
+  transition: all .4s ease;
+  opacity: .5;
 }
 
-.jcarousel-wrapper img {
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+.slick-slide.lt2 img {
+  transform: translate(10%, 0) scale(.3);
+
 }
 
-.jcarousel-wrapper .jcarousel img {
-  transform: scale(0.5);
-  opacity: 0.5;
+.slick-slide.lt1 img {
+  opacity: .7;
+  transform: translate(-5%, 0) scale(.3);
 }
 
-.jcarousel-wrapper .jcarousel li:nth-of-type(3) img {
+.slick-slide.gt1 img {
+  opacity: .7;
+  transform: translate(5%, 0) scale(.3);
+}
+
+.slick-slide.gt2 img {
+  transform: translate(-10%, 0) scale(.3);
+}
+
+.slick-slide.slick-center img {
+  z-index: 1;
   transform: scale(1);
   opacity: 1;
+}
+
+.slick-prev,
+.slick-next {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  /* appearance: none; */
+  margin-top: -10px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: transparent;
+  outline: none;
+  z-index: 100;
+  background-image: url('/assets/img/Daco_4829759.png');
+  background-size: contain;
+}
+
+.slick-prev {
+  left: 25vw;
+}
+
+.slick-next {
+  transform: rotate(180deg);
+  right: 25vw;
+}
+
+.slick-prev:focus, .slick-next:focus {
+  outline: none;
 }

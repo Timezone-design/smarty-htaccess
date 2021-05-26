@@ -1,14 +1,3 @@
-/* footer {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} */
-
-#footer-title {
-    position: relative;
-    left: 86px;
-    background-position: 53% 106%;
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
 .footer-showbox-img img {
     display: block;
     margin: auto;
@@ -20,14 +9,8 @@
     padding-bottom: 50px;
 }
 
-.footer-showbox-title {
-    font-size: 2vw;
-    text-align: center;
-    padding-bottom: 40px;
-}
-
 .showbox-content {
-    margin-left: 50px;
+    margin: 0px 50px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -36,12 +19,7 @@
     margin-bottom: 50px;
 }
 
-.showbox-content td {
-    padding-bottom: 40px;
-    font-size: 1vw;
-}
-
-.footer-places > div.footer-showbox:nth-of-type(odd) {
+.footer-places>div.footer-showbox:nth-of-type(odd) {
     background-color: #ececee;
 }
 
@@ -56,7 +34,7 @@
     color: white;
 }
 
-.footer-bottom > .col-md-4 {
+.footer-bottom>.col-md-4 {
     display: flex;
 }
 
@@ -64,22 +42,62 @@
     padding-bottom: 10px;
 }
 
-.additional-info {
-    font-size: 1vw;
+@media all and (min-width: 992px) {
+    .footer-showbox-title {
+        font-size: 2vw;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .showbox-content td {
+        padding-bottom: 40px;
+        font-size: 1vw;
+    }
+
+    .additional-info {
+        font-size: 1vw;
+    }
+
+    .footer-text .company-title {
+        color: white;
+        font-size: 2vw;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 1vw;
+    }
 }
 
-.footer-text .company-title {
-    color: white;
-    font-size: 2vw;
+@media all and (max-width: 991px) {
+    .footer-showbox-title {
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .showbox-content td {
+        padding-bottom: 40px;
+        font-size: 12px;
+    }
+
+    .additional-info {
+        font-size: 12px;
+    }
+
+    .footer-text .company-title {
+        color: white;
+        font-size: 18px;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 12px;
+    }
 }
 
 .footer-text {
     padding-left: 19px;
-}
-
-.copyright {
-    text-align: center;
-    font-size: 1vw;
 }
 
 .copyright span {

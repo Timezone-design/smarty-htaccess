@@ -55,27 +55,17 @@
         </div>
     </nav>
     <div class="clearfix"></div>
-    <div id="top-carousel" class="row">
+    <div id="top-carousel">
         <div id="header-carousel-name" class="arrowed-title">
             <h1>PICK UP</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset="">
         </div>
-        <div class="jcarousel-wrapper">
-            <div class="jcarousel" data-jcarousel="true">
-                <ul>
-                    <li><img src="/assets/img/home/hks_202103_05_camp_480.gif"></li>
-                    <li><img src="/assets/img/home/liqui_moly_dpf_480.gif"></li>
-                    <li><img src="/assets/img/home/mahle_ozone_pro_480.gif"></li>
-                    <li><img src="/assets/img/home/tire_wheel_480.gif"></li>
-                </ul>
+        <div class="slick-wrapper">
+            <div class="slick">
+                <div><img src="/assets/img/home/hks_202103_05_camp_480.gif"></div>
+                <div><img src="/assets/img/home/liqui_moly_dpf_480.gif"></div>
+                <div><img src="/assets/img/home/mahle_ozone_pro_480.gif"></div>
+                <div><img src="/assets/img/home/tire_wheel_480.gif"></div>
             </div>
-            <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹</a>
-            <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>
-            <p class="jcarousel-pagination" data-jcarouselpagination="true">
-                <a href="#1" class="active">1</a>
-                <a href="#2" class="">2</a>
-                <a href="#3" class="">3</a>
-                <a href="#4" class="">4</a>
-            </p>
         </div>
     </div>
     <div class="clearfix"></div>

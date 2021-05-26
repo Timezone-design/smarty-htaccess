@@ -2,6 +2,8 @@
     <div class="footer-title">
         <div id="footer-title" class="arrowed-title"><h1 class="ja">店舗情報</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset=""></div>
     </div>
+    <div class="clearfix"></div>
+    <br>
     <div class="footer-places row">
         <div class="footer-showbox col-md-4">
             <div class="footer-showbox-img">
@@ -101,13 +103,13 @@
         </div>
     </div>
     <div class="footer-bottom row">
-        <div class="col-md-4">
-            <div class="col-md-6"></div>
-            <div id="footer-logo-wrap" class="col-md-6">
+        <div class="col-md-4 col-sm-4 col-xs-4">
+            <div class="col-md-6 col-sm-1 col-xs-1"></div>
+            <div id="footer-logo-wrap" class="col-md-6 col-sm-11 col-xs-11">
                 <img id="footer-logo" class="logo" src="/assets/img/ogp.png" alt="Company Logo" srcset="">
             </div>
         </div>
-        <div class="footer-text col-md-8">
+        <div class="footer-text col-md-8 col-sm-8 col-xs-8">
             <div class="company-title">K T S — — —</div>
             <div class="additional-info">フッターです</div>
             <div class="additional-info">フッターです</div>
