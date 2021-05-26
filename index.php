@@ -30,14 +30,14 @@ $row = fgetcsv($handle, 0, ",");
 
 while (($row = fgetcsv($handle, 0, ",")) !== false) 
 {
-    // $page = array(
-    // 	'uri' => (string) $row[0],
-    // 	'id_template' => (int) $row[1],
-    // 	'meta_title' => (string) $row[2],
-    // 	'meta_description' => (string) $row[3],
-    // 	'meta_keywords' => (string) $row[4],
-    // 	'content' => (string) $row[5]
-    // );
+    $page = array(
+    	'uri' => (string) $row[0],
+    	'id_template' => (int) $row[1],
+    	'meta_title' => (string) $row[2],
+    	'meta_description' => (string) $row[3],
+    	'meta_keywords' => (string) $row[4],
+    	'content' => (string) $row[5]
+    );
 
     if((string)$row[0] == (string)$uri){
     	$id_template = (int) $row[1];
@@ -47,26 +47,30 @@ while (($row = fgetcsv($handle, 0, ",")) !== false)
 
 fclose($handle);
 
-$file = __DIR__."/db/$id_template.csv";
+if(array_search($id_template, [21,22,23,24,25,42,43]) !== false){
 
-$handle = fopen($file, "r");
-$fields = fgetcsv($handle, 0, ",");
-while (($row = fgetcsv($handle, 0, ",")) !== false) 
-{
-	if((string)$row[0] == (string)$uri){
+	$file = __DIR__."/db/$id_template.csv";
 
-    	foreach ($fields as $key => $value) {
-    		if($value == 'items')
-    			$page[$value] = json_decode($row[$key]);
-    		else
-    			$page[$value] = $row[$key];	
-    	}
+	$handle = fopen($file, "r");
+	$fields = fgetcsv($handle, 0, ",");
+	while (($row = fgetcsv($handle, 0, ",")) !== false) 
+	{
+		if((string)$row[0] == (string)$uri){
 
-    	break;
-    }
+	    	foreach ($fields as $key => $value) {
+	    		if($value == 'items')
+	    			$page[$value] = json_decode($row[$key]);
+	    		else
+	    			$page[$value] = $row[$key];	
+	    	}
+
+	    	break;
+	    }
+	}
+
+	fclose($handle);
+
 }
-
-fclose($handle);
 
 $js_custom_vars = array(
 	'google_conversion_id' => 970727982,
