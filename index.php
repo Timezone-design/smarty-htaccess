@@ -30,21 +30,43 @@ $row = fgetcsv($handle, 0, ",");
 
 while (($row = fgetcsv($handle, 0, ",")) !== false) 
 {
-    $page = array(
-    	'uri' => (string) $row[0],
-    	'id_template' => (int) $row[1],
-    	'meta_title' => (string) $row[2],
-    	'meta_description' => (string) $row[3],
-    	'meta_keywords' => (string) $row[4],
-    	'content' => (string) $row[5]
-    );
+    // $page = array(
+    // 	'uri' => (string) $row[0],
+    // 	'id_template' => (int) $row[1],
+    // 	'meta_title' => (string) $row[2],
+    // 	'meta_description' => (string) $row[3],
+    // 	'meta_keywords' => (string) $row[4],
+    // 	'content' => (string) $row[5]
+    // );
 
-    if((string)$page['uri'] == (string)$uri) break;
+    if((string)$row[0] == (string)$uri){
+    	$id_template = (int) $row[1];
+    	break;
+    }
 }
 
 fclose($handle);
 
+$file = __DIR__."/db/$id_template.csv";
 
+$handle = fopen($file, "r");
+$fields = fgetcsv($handle, 0, ",");
+while (($row = fgetcsv($handle, 0, ",")) !== false) 
+{
+	if((string)$row[0] == (string)$uri){
+
+    	foreach ($fields as $key => $value) {
+    		if($value == 'items')
+    			$page[$value] = json_decode($row[$key]);
+    		else
+    			$page[$value] = $row[$key];	
+    	}
+
+    	break;
+    }
+}
+
+fclose($handle);
 
 $js_custom_vars = array(
 	'google_conversion_id' => 970727982,
@@ -104,5 +126,5 @@ $smarty->assign(array(
 	'base_url' => __DIR__
 ));
 
-// $smarty->display($templates[(int) $page['id_template']]);
-$smarty->display($templates[(int) 1]);
+$smarty->display($templates[$id_template]);
+// $smarty->display($templates[(int) 1]);
