@@ -1,7 +1,7 @@
 <!-- Header Start -->
 <header class="site-header">
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="/"><img id="header-logo" class="logo" src="/assets/img/ogp.png" alt="Company Logo"
+        <a class="navbar-brand" href="/"><img id="header-logo" class="logo" src="/assets/img/opg.webp" alt="Company Logo"
                 srcset=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,10 +61,10 @@
         </div>
         <div class="slick-wrapper">
             <div class="slick">
-                <div><img src="/assets/img/home/hks_202103_05_camp_480.gif"></div>
-                <div><img src="/assets/img/home/liqui_moly_dpf_480.gif"></div>
-                <div><img src="/assets/img/home/mahle_ozone_pro_480.gif"></div>
-                <div><img src="/assets/img/home/tire_wheel_480.gif"></div>
+                <div><img src="/assets/img/home/hks_202103_05_camp_480.webp"></div>
+                <div><img src="/assets/img/home/liqui_moly_dpf_480.webp"></div>
+                <div><img src="/assets/img/home/mahle_ozone_pro_480.webp"></div>
+                <div><img src="/assets/img/home/tire_wheel_480.webp"></div>
             </div>
         </div>
     </div>

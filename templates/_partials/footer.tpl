@@ -7,7 +7,7 @@
     <div class="footer-places row">
         <div class="footer-showbox col-md-4">
             <div class="footer-showbox-img">
-                <img src="/assets/img/factory.png" alt="factory" srcset="">
+                <img src="/assets/img/factory.webp" alt="factory" srcset="">
             </div>
             <div class="footer-showbox-title">
                 <span class="showbox-title">FACTORY</span>
@@ -39,7 +39,7 @@
         </div>
         <div class="footer-showbox col-md-4">
             <div class="footer-showbox-img">
-                <img src="/assets/img/heiwajima.png" alt="factory" srcset="">
+                <img src="/assets/img/heiwajima.webp" alt="factory" srcset="">
             </div>
             <div class="footer-showbox-title">
                 <span class="showbox-title">HEIWAJIMA</span>
@@ -71,7 +71,7 @@
         </div>
         <div class="footer-showbox col-md-4">
             <div class="footer-showbox-img">
-                <img src="/assets/img/ichinoe.png" alt="factory" srcset="">
+                <img src="/assets/img/ichinoe.webp" alt="factory" srcset="">
             </div>
             <div class="footer-showbox-title">
                 <span class="showbox-title">ICHINOE</span>
@@ -106,7 +106,7 @@
         <div class="col-md-4 col-sm-4 col-xs-4">
             <div class="col-md-6 col-sm-1 col-xs-1"></div>
             <div id="footer-logo-wrap" class="col-md-6 col-sm-11 col-xs-11">
-                <img id="footer-logo" class="logo" src="/assets/img/ogp.png" alt="Company Logo" srcset="">
+                <img id="footer-logo" class="logo" src="/assets/img/opg.webp" alt="Company Logo" srcset="">
             </div>
         </div>
         <div class="footer-text col-md-8 col-sm-8 col-xs-8">

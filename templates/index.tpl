@@ -9,20 +9,20 @@
     <div class="clearfix"></div>
     <br>
     <div class="four-of-a-kind row">
-      <div class="four-of-a-kind-one col-md-3 col-sm-3" style="background-image: url('/assets/img/four-of-a-kind/1.png');">
-        <img src="/assets/img/four-of-a-kind/1.png" alt="" srcset="" style="visibility: hidden; max-width: 100%; max-height: 100%;">
+      <div class="four-of-a-kind-one col-md-3 col-sm-3" style="background-image: url('/assets/img/four-of-a-kind/1.webp');">
+        <img src="/assets/img/four-of-a-kind/1.webp" alt="" srcset="" style="visibility: hidden; max-width: 100%; max-height: 100%;">
         <a class="arrowed-link white" href="/shop_menu/index.html"><span class="title ja">ショップメニュー</span><span class="ja">詳しく見る</span><img src="/assets/img/white_arrow.svg" alt="Menu Link"></a>
       </div>
-      <div class="four-of-a-kind-one col-md-3 col-sm-3" style="background-image: url('/assets/img/four-of-a-kind/2.png');">
-        <img src="/assets/img/four-of-a-kind/2.png" alt="" srcset="" style="visibility: hidden; max-width: 100%; max-height: 100%;">
+      <div class="four-of-a-kind-one col-md-3 col-sm-3" style="background-image: url('/assets/img/four-of-a-kind/2.webp');">
+        <img src="/assets/img/four-of-a-kind/2.webp" alt="" srcset="" style="visibility: hidden; max-width: 100%; max-height: 100%;">
         <a class="arrowed-link white" href="/original_product/index.html"><span class="title ja">オリジナル商品</span><span class="ja">詳しく見る</span><img src="/assets/img/white_arrow.svg" alt="Menu Link"></a>
       </div>
-      <div class="four-of-a-kind-one col-md-3 col-sm-3" style="background-image: url('/assets/img/four-of-a-kind/3.png');">
-        <img src="/assets/img/four-of-a-kind/3.png" alt="" srcset="" style="visibility: hidden; max-width: 100%; max-height: 100%;">
+      <div class="four-of-a-kind-one col-md-3 col-sm-3" style="background-image: url('/assets/img/four-of-a-kind/3.webp');">
+        <img src="/assets/img/four-of-a-kind/3.webp" alt="" srcset="" style="visibility: hidden; max-width: 100%; max-height: 100%;">
         <a class="arrowed-link white" href="/tire_wheel/index.html"><span class="title ja">タイヤ・ホイール</span><span class="ja">詳しく見る</span><img src="/assets/img/white_arrow.svg" alt="Menu Link"></a>
       </div>
-      <div class="four-of-a-kind-one col-md-3 col-sm-3" style="background-image: url('/assets/img/four-of-a-kind/4.png');">
-        <img src="/assets/img/four-of-a-kind/4.png" alt="" srcset="" style="visibility: hidden; max-width: 100%; max-height: 100%;">
+      <div class="four-of-a-kind-one col-md-3 col-sm-3" style="background-image: url('/assets/img/four-of-a-kind/4.webp');">
+        <img src="/assets/img/four-of-a-kind/4.webp" alt="" srcset="" style="visibility: hidden; max-width: 100%; max-height: 100%;">
         <a class="arrowed-link white" href="/wholesale/index.html"><span class="title ja">業販</span><span class="ja">詳しく見る</span><img src="/assets/img/white_arrow.svg" alt="Menu Link"></a>
       </div>
     </div>

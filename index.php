@@ -102,4 +102,4 @@ $smarty->assign(array(
 ));
 
 // $smarty->display($templates[(int) $page['id_template']]);
-$smarty->display($templates[(int) 1]);
+$smarty->display($templates[(int) 2]);
