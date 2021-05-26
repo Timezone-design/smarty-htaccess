@@ -16,7 +16,7 @@
       </div>
       <div>
         <div class="clearfix"></div>
-        <div class="three-tiles">
+        <div class="three-tiles row">
           <div class="three-tiles-one col-md-4 col-sm-4">
             <a href="/shop_menu/set/cat/100.html" class="notype">
               <img src="/assets/img/cat_img/101.jpg" alt="" srcset="">
