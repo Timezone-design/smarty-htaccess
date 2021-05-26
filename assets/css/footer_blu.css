@@ -114,3 +114,31 @@
     width: 70%;
     margin-left: -18px;
 }
+
+@media all and (min-width: 576px) and (max-width: 991px) {
+    #footer-logo-wrap img {
+        width: 96%;
+    }
+}
+
+@media all and (max-width: 575px) {
+    #footer-logo-wrap img {
+        width: 96%;
+    }
+}
+
+.col-xs-1 {
+    width: 8.3333333%;
+}
+
+.col-xs-4 {
+    width: 33.3333333%;
+}
+
+.col-xs-8 {
+    width: 66.6666667%;
+}
+
+.col-xs-11 {
+    width: 91.6666667%;
+}

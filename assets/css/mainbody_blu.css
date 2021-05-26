@@ -165,12 +165,12 @@
 
 @media all and (max-width: 991px) {
     .four-square-one .description div.arrowed-link {
-        font-size: 7.8 !important;
+        font-size: 7.8px !important;
     }
 
     .four-square-one .description {
         padding: 12px 25px;
-        font-size: 7.8;
+        font-size: 7.8px;
     }
 }
 
@@ -218,22 +218,24 @@ a.notype:link {
 }
 
 .three-tiles-one .three-tiles-blue-border {
-    font-size: 400%;
+    font-size: 3.48vw;
     color: transparent;
     -webkit-text-stroke: 2px #2036c2;
     text-align: left;
-    position: absolute;
-    bottom: 0;
     z-index: 1001;
 }
 
-.three-tiles-title {
+.three-tiles-one .three-tiles-title {
     text-align: center;
     font-size: 1.145vw;
     font-weight: bold;
     padding: 13px 0px;
-    z-index: 10500;
-    position: relative;
+}
+
+.three-tiles-one .inside-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .three-tiles-one {
@@ -241,26 +243,49 @@ a.notype:link {
     background-repeat: no-repeat;
 }
 
-.three-tiles .three-tiles-triangle {
+/* .three-tiles .three-tiles-triangle {
     width: 100%;
     position: absolute;
     z-index: 100;
     bottom: 0;
     left: 0;
-}
+} */
 
 .three-tiles .three-tiles-text {
     font-size: 0.677vw;
     text-align: center;
-    z-index: 10500;
-    position: relative;
+    /* z-index: 10500; */
+    position: initial;
 }
 
 .three-tiles .image-inside-wrapper {
     position: relative;
     width: 100%;
-    height: 32.3vw;
-    max-height: 464.422px;
+    /* height: 32.3vw;
+    max-height: 464.422px; */
+}
+
+.three-tiles .image-inside-wrapper p {
+    margin-bottom: 0.5rem;
+}
+
+@media all and (max-width: 767px) {
+
+    .three-tiles-one .three-tiles-blue-border {
+        font-size: 5.86vw;
+    }
+
+    .three-tiles-one .three-tiles-title {
+        font-size: 2vw;
+    }
+
+    .three-tiles .three-tiles-text {
+        font-size: 1.2vw;
+    }
+
+    .three-tiles .image-inside-wrapper p {
+        margin-bottom: 0rem;
+    }
 }
 
 .four-tiles-one {
