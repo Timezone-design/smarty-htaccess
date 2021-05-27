@@ -69,7 +69,7 @@ header .clearfix {
 .arrowed-title:not(#header-carousel-name) img {
   width: 120%;
   position: absolute;
-  top: 1.6vw;
+  top: 2.6vw;
   left: 34%;
 }
 
@@ -132,7 +132,15 @@ header .clearfix {
   }
 
   #header-carousel-name {
+    font-size: 18px;
     top: 122px !important;
+  }
+  
+  .arrowed-title#header-carousel-name img {
+    width: 16vw;
+    position: absolute;
+    top: 2.6vw;
+    left: 5%;
   }
 
 }

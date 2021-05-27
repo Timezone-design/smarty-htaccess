@@ -22,17 +22,15 @@
           <div class="clearfix"></div>
           <div class="clearfix"></div>
           
-          {$index = 0}
+          <div class="three-tiles row">
           {foreach $page.items as $item}
-            {if $index % 3 == 0}<div class="three-tiles row">{/if}
               <div class="three-tiles-one col-md-4 col-sm-4">
                 <a href="{$item->link}" class="notype">
                   <img src="{$item->image}" alt="{$item->image_alt}" srcset="">
                 </a>
               </div>
-            {$index = $index + 1}
-            {if $index % 3 == 0}</div>{/if}
           {/foreach}
+          </div>
 
           <div class="clearfix"></div>
         </div>
