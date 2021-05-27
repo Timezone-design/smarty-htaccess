@@ -28,6 +28,8 @@ $file = __DIR__.'/db/db.csv';
 $handle = fopen($file, "r");
 $row = fgetcsv($handle, 0, ",");
 
+$id_template = null;
+
 while (($row = fgetcsv($handle, 0, ",")) !== false) 
 {
     $page = array(
@@ -126,6 +128,6 @@ $smarty->assign(array(
 	'search_values' => $search_values,
 	'base_url' => __DIR__
 ));
-
-// $smarty->display($templates[(int) $page['id_template']]);
-$smarty->display($templates[(int) 23]);
+die((string)$id_template);
+$smarty->display($templates[(int)$id_template]);
+// $smarty->display($templates[(int) 21]);
