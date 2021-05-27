@@ -14,6 +14,7 @@ $smarty->caching = false;
 $templates = array(
 	1 => 'index.tpl', 2 => 'shop_menu/index.tpl', 21 => 'shop_menu/large_category.tpl', 22 => 'shop_menu/small_category.tpl', 23 => 'shop_menu/manufacturer.tpl', 24 => 'shop_menu/mounting_price.tpl', 25 => 'shop_menu/product_sales_price.tpl', 26 => 'shop_menu/store_introduction.tpl', 27 => 'shop_menu/factory_introduction.tpl', 28 => 'shop_menu/introduction_to_island.tpl', 29 => 'shop_menu/introduction.tpl', 3 => 'original_product/index.tpl', 31 => 'original_product/original_category.tpl', 32 => 'original_product/original_product_price.tpl', 30 => '', 4 => 'tire_wheel/index.tpl', 41 => 'tire_wheel/tire.tpl', 42 => 'tire_wheel/tire_maker.tpl', 43 => 'tire_wheel/tire_price.tpl', 44 => 'tire_wheel/wheel.tpl', 45 => 'tire_wheel/wheel_maker.tpl', 46 => 'tire_wheel/wheel_price.tpl', 5 => 'campaign/index.tpl', 50 => 'campaign/campaign.tpl', 6 => 'wholesale/index.tpl', 8 => 'company.tpl', 404 => '404.tpl'
 );
+$id_template = 404;
 
 $page = array(
 	'uri' => $uri,
@@ -28,7 +29,6 @@ $file = __DIR__.'/db/db.csv';
 $handle = fopen($file, "r");
 $row = fgetcsv($handle, 0, ",");
 
-$id_template = null;
 
 while (($row = fgetcsv($handle, 0, ",")) !== false) 
 {
@@ -74,44 +74,7 @@ if(array_search($id_template, [21,22,23,24,25,42,43]) !== false){
 
 }
 
-$js_custom_vars = array(
-	'google_conversion_id' => 970727982,
-	'google_custom_params' => 'window.google_tag_params',
-	'google_remarketing_only' => true
-);
-
-$javascript = array(
-	'head' => array(
-
-		'external' => array(
-		),
-		'inline' => array()
-	),
-	'bottom' => array(
-		'external' => array(
-			"https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
-			"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js",
-			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
-			"/assets/js/header_blu.js",
-		),
-		'inline' => array()
-	)
-);
-
-$stylesheets = array(
-
-	'external' => array(
-		"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
-		"/assets/css/search.css",
-		"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",	
-		"/assets/css/header_blu.css",
-		"/assets/css/mainbody_blu.css",
-		"/assets/css/footer_blu.css",
-		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap",
-	),
-	'inline' => array(
-	)
-);
+require(__DIR__.'/vars.php');
 
 $search_values = array(
 	'manufacturer' => isset($_POST["manufacturer"]) ? $_POST["manufacturer"] : "",
@@ -128,6 +91,5 @@ $smarty->assign(array(
 	'search_values' => $search_values,
 	'base_url' => __DIR__
 ));
-die((string)$id_template);
-$smarty->display($templates[(int)$id_template]);
-// $smarty->display($templates[(int) 21]);
+
+$smarty->display($templates[$id_template]);
