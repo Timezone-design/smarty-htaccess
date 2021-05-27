@@ -82,14 +82,16 @@ $javascript = array(
 	'head' => array(
 
 		'external' => array(
+			"https://code.jquery.com/jquery-3.3.1.slim.min.js",
+			"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js",
+			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
+			"/assets/jcarousel/jquery.jcarousel.min.js",
+			"/assets/jcarousel/jcarousel.responsive.js",
 		),
 		'inline' => array()
 	),
 	'bottom' => array(
 		'external' => array(
-			"https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
-			"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js",
-			"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
 			"/assets/js/header_blu.js",
 		),
 		'inline' => array()
@@ -99,13 +101,14 @@ $javascript = array(
 $stylesheets = array(
 
 	'external' => array(
-		"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
 		"/assets/css/search.css",
-		"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",	
+		"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
 		"/assets/css/header_blu.css",
 		"/assets/css/mainbody_blu.css",
 		"/assets/css/footer_blu.css",
-		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap",
+		"/assets/jcarousel/jcarousel.responsive.css",
+		"/assets/jcarousel/style.css",
+		"https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
 	),
 	'inline' => array(
 	)
@@ -127,5 +130,5 @@ $smarty->assign(array(
 	'base_url' => __DIR__
 ));
 
-// $smarty->display($templates[(int) $page['id_template']]);
-$smarty->display($templates[(int) 23]);
+$smarty->display($templates[$id_template]);
+// $smarty->display($templates[(int) 1]);
