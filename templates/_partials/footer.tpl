@@ -1,4 +1,6 @@
 <footer>
+    <div class="clearfix"></div>
+
     <div class="footer-title">
         <div id="footer-title" class="arrowed-title"><h1 class="ja">店舗情報</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset=""></div>
     </div>

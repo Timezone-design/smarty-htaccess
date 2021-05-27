@@ -1,3 +1,7 @@
+img {
+    width: 100%;
+}
+
 .four-of-a-kind-one {
     background-size: contain;
     background-repeat: no-repeat;
@@ -303,4 +307,47 @@ a.notype:link {
     font-size: 27px;
     font-weight: bold;
     padding: 13px 0px;
+}
+
+/* 
+* large category
+*/
+.large-category .row {
+    width: 78%;
+    margin: auto;
+}
+
+.large-category .row.banner-wrapper {
+    /* width: 60%; */
+    margin: auto;
+}
+
+.large-category .banner-wrapper {
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 1px 8px 0 rgb(0 0 0 / 19%);
+    background-color: #ececec;
+    padding: 15px;
+}
+
+.large-category-top-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+
+@media all and (max-width: 767px) {
+    .large-category-top-text div {
+        font-size: 1.8vw;
+    }
+}
+
+.large-category .three-tiles-one img {
+    border: 5px solid grey;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 1px 8px 0 rgb(0 0 0 / 19%);
+
+}
+
+.small-category .four-tiles .row {
+    width: 78%;
 }

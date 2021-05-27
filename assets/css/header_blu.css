@@ -66,11 +66,18 @@ header .clearfix {
   font-size: 1vw;
 }
 
-.arrowed-title img {
-  width: 10vw;
+.arrowed-title:not(#header-carousel-name) img {
+  width: 120%;
   position: absolute;
   top: 1.6vw;
   left: 34%;
+}
+
+.arrowed-title#header-carousel-name img {
+  width: 10vw;
+  position: absolute;
+  top: 1.6vw;
+  left: 2%;
 }
 
 @media all and (max-width: 1920px) and (min-width: 992px) {
@@ -91,11 +98,11 @@ header .clearfix {
     font-size: 1vw;
   }
 
-  .arrowed-title img {
-    width: 10vw;
+  .arrowed-title:not(#header-carousel-name) img {
+    width: 120%;
     position: absolute;
     top: 1.6vw;
-    left: 2%;
+    left: 31%;
   }
 }
 
@@ -137,7 +144,8 @@ header .clearfix {
 
 .arrowed-link img {
   transform: translateY(-7px);
-  zoom: 37%;
+  zoom: 48%;
+  width: auto;
 }
 
 .arrowed-link.black {
