@@ -10,37 +10,37 @@
           <div class="clearfix"></div>
           <div class="three-tiles ja row">
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/suspension/index.html" class="btn btn-primary btn-lg btn-block" id="suspension"><span>サスペンション</span></a>
+              <a href="/product/suspension/index.html" class="btn btn-primary btn-lg btn-block" id="suspension"><span>サスペンション</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/drive/index.html" class="btn btn-primary btn-lg btn-block" id="dirve-train"><span>アーム・ロッド</span></a>
+              <a href="/product/drive/index.html" class="btn btn-primary btn-lg btn-block" id="dirve-train"><span>アーム・ロッド</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/cooling/index.html" class="btn btn-primary btn-lg btn-block" id="cooling"><span>駆動系</span></a>
+              <a href="/product/cooling/index.html" class="btn btn-primary btn-lg btn-block" id="cooling"><span>駆動系</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/brake/index.html" class="btn btn-primary btn-lg btn-block" id="brake"><span>冷却系</span></a>
+              <a href="/product/brake/index.html" class="btn btn-primary btn-lg btn-block" id="brake"><span>冷却系</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/arm/index.html" class="btn btn-primary btn-lg btn-block" id="arm-and-rod"><span>ブレーキ</span></a>
+              <a href="/product/arm/index.html" class="btn btn-primary btn-lg btn-block" id="arm-and-rod"><span>ブレーキ</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/body/index.html" class="btn btn-primary btn-lg btn-block" id="stiffness"><span>ボディ補強</span></a>
+              <a href="/product/body/index.html" class="btn btn-primary btn-lg btn-block" id="stiffness"><span>ボディ補強</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/ex/index.html" class="btn btn-primary btn-lg btn-block" id="exhaust"><span>排気系</span></a>
+              <a href="/product/ex/index.html" class="btn btn-primary btn-lg btn-block" id="exhaust"><span>排気系</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/intake/index.html" class="btn btn-primary btn-lg btn-block" id="intake"><span>吸気系</span></a>
+              <a href="/product/intake/index.html" class="btn btn-primary btn-lg btn-block" id="intake"><span>吸気系</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/interior/index.html" class="btn btn-primary btn-lg btn-block" id="interior"><span>インテリア</span></a>
+              <a href="/product/interior/index.html" class="btn btn-primary btn-lg btn-block" id="interior"><span>インテリア</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/engine/index.html" class="btn btn-primary btn-lg btn-block" id="engine"><span>エンジン</span></a>
+              <a href="/product/engine/index.html" class="btn btn-primary btn-lg btn-block" id="engine"><span>エンジン</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="https://www.kts-web.com/product/other/index.html" class="btn btn-primary btn-lg btn-block" id="other"><span>その他</span></a>
+              <a href="/product/other/index.html" class="btn btn-primary btn-lg btn-block" id="other"><span>その他</span></a>
             </div>
           </div>
           <div class="quick-search ja">
