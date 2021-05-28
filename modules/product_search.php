@@ -41,32 +41,40 @@ if ($id_template == 1 || $id_template == 24 || $id_template == 25) {
 	}
 
 ?>
-<div class="search-block" id="search-block">
+<div class="search-block grey-wrapper" id="search-block">
 	<div class="clearfix"></div>
 	<h1 class="search">SEARCH</h1>
 	<div class="clearfix"></div>
-	<h2>Japanese</h2>
-	<form action="/<?=$uri?>" method="post">
-	  <select name="car_manu" onchange="this.form.car_model_cat=''; this.form.product_name = ''; submit(this.form)">
-	  	<option value='' <?php if($car_manu == '') echo 'selected'; ?>>メーカーを選ぶ</option>
-	  	<?php foreach ($car_manus as $key => $value) { ?>
-	    <option value="<?=$value?>" <?php if($car_manu == $value) echo 'selected'; ?>><?=$value?></option>
-		<?php } ?>
-	  </select>
-	  <select name="car_model_cat" onchange="this.form.product_name = ''; submit(this.form)">
-	  	<option value='' <?php if($car_model_cat == '') echo 'selected'; ?> >車種を選ぶ</option>
-	    <?php foreach ($car_model_cats as $key => $value) { ?>
-	    <option value="<?=$value?>" <?php if($car_model_cat == $value) echo 'selected'; ?>><?=$value?></option>
-		<?php } ?>
-	  </select>
-	  <select name="product_name">
-	  	<option value='' <?php if($product_name == '') echo 'selected'; ?>>製品を選ぶ</option>
-	  	<?php foreach ($product_names as $key => $value) { ?>
-	    <option value="<?=$value?>" <?php if($product_name == $value) echo 'selected'; ?>><?=$value?></option>
-		<?php } ?>
-	  </select>
-	  <br>
-	  <button type="submit">Search</button>
+	<h2 class="ja">車種別に商品の適合を検索できます。</h2>
+	<div class="clearfix"></div>
+	<form action="/<?=$uri?>" method="post" class="row ja">
+		<div class="search-select col-md-4 col-sm-4">
+			<select class="custom-select-lg" name="car_manu" onchange="this.form.car_model_cat=''; this.form.product_name = ''; submit(this.form)">
+				<option value='' <?php if($car_manu == '') echo 'selected'; ?>>メーカーを選ぶ</option>
+				<?php foreach ($car_manus as $key => $value) { ?>
+				<option value="<?=$value?>" <?php if($car_manu == $value) echo 'selected'; ?>><?=$value?></option>
+				<?php } ?>
+			</select>
+		</div>
+		<div class="search-select col-md-4 col-sm-4">
+			<select class="custom-select-lg" name="car_model_cat" onchange="this.form.product_name = ''; submit(this.form)">
+				<option value='' <?php if($car_model_cat == '') echo 'selected'; ?> >車種を選ぶ</option>
+				<?php foreach ($car_model_cats as $key => $value) { ?>
+				<option value="<?=$value?>" <?php if($car_model_cat == $value) echo 'selected'; ?>><?=$value?></option>
+				<?php } ?>
+			</select>
+		</div>
+		<div class="search-select col-md-4 col-sm-4">
+			<select class="custom-select-lg" name="product_name">
+				<option value='' <?php if($product_name == '') echo 'selected'; ?>>製品を選ぶ</option>
+				<?php foreach ($product_names as $key => $value) { ?>
+				<option value="<?=$value?>" <?php if($product_name == $value) echo 'selected'; ?>><?=$value?></option>
+				<?php } ?>
+			</select>
+		</div>
+		<br>
+		<div class="clearfix"></div>
+		<button type="submit" class="btn btn-primary">Search</button>
 	</form>
 	<?php if(count($filtered_products) > 0){ ?>
 	<div class="search-results">	
@@ -104,6 +112,7 @@ if ($id_template == 1 || $id_template == 24 || $id_template == 25) {
 		</table>
 	</div>
 	<?php } ?>
+	<div class="clearfix"></div>
 </div>
 <?php
 }else if ($id_template == 43) {
@@ -148,30 +157,39 @@ if ($id_template == 1 || $id_template == 24 || $id_template == 25) {
 
 	fclose($handle);
 ?>
-<div class="search-block" id="search-block">
+<div class="search-block grey-wrapper" id="search-block">
+	<div class="clearfix"></div>
 	<h1 class="search">SEARCH</h1>
-	<h2>Japanese</h2>
-	<form action="/<?=$uri?>" method="post">
-	  <select name="inch" onchange="this.form.tire_width=''; this.form.flatness = ''; submit(this.form)">
-	  	<option value='' <?php if($inch == '') echo 'selected'; ?>>インチを選ぶ</option>
-	  	<?php foreach ($inches as $key => $value) { ?>
-	    <option value="<?=$value?>" <?php if($inch == $value) echo 'selected'; ?>><?=$value?></option>
-		<?php } ?>
-	  </select>
-	  <select name="tire_width" onchange="this.form.flatness = ''; submit(this.form)">
-	  	<option value='' <?php if($tire_width == '') echo 'selected'; ?> >幅を選ぶ</option>
-	    <?php foreach ($tire_widthes as $key => $value) { ?>
-	    <option value="<?=$value?>" <?php if($tire_width == $value) echo 'selected'; ?>><?=$value?></option>
-		<?php } ?>
-	  </select>
-	  <select name="flatness">
-	  	<option value='' <?php if($flatness == '') echo 'selected'; ?>>扁平率を選ぶ</option>
-	  	<?php foreach ($flatnesses as $key => $value) { ?>
-	    <option value="<?=$value?>" <?php if($flatness == $value) echo 'selected'; ?>><?=$value?></option>
-		<?php } ?>
-	  </select>
-	  <br>
-	  <button type="submit">Search</button>
+	<div class="clearfix"></div>
+	<h2 class="ja">車種別に商品の適合を検索できます。</h2>
+	<div class="clearfix"></div>
+	<form action="/<?=$uri?>" method="post" class="row ja">
+		<div class="search-select col-md-4 col-sm-4">
+			<select class="custom-select-lg" name="inch" onchange="this.form.tire_width=''; this.form.flatness = ''; submit(this.form)">
+				<option value='' <?php if($inch == '') echo 'selected'; ?>>インチを選ぶ</option>
+				<?php foreach ($inches as $key => $value) { ?>
+				<option value="<?=$value?>" <?php if($inch == $value) echo 'selected'; ?>><?=$value?></option>
+				<?php } ?>
+			</select>
+		</div>
+		<div class="search-select col-md-4 col-sm-4">
+			<select class="custom-select-lg" name="tire_width" onchange="this.form.flatness = ''; submit(this.form)">
+				<option value='' <?php if($tire_width == '') echo 'selected'; ?> >幅を選ぶ</option>
+				<?php foreach ($tire_widthes as $key => $value) { ?>
+				<option value="<?=$value?>" <?php if($tire_width == $value) echo 'selected'; ?>><?=$value?></option>
+				<?php } ?>
+			</select>
+		</div>
+		<div class="search-select col-md-4 col-sm-4">
+			<select class="custom-select-lg" name="flatness">
+				<option value='' <?php if($flatness == '') echo 'selected'; ?>>扁平率を選ぶ</option>
+				<?php foreach ($flatnesses as $key => $value) { ?>
+				<option value="<?=$value?>" <?php if($flatness == $value) echo 'selected'; ?>><?=$value?></option>
+				<?php } ?>
+			</select>
+		</div>
+	  	<br>
+	  	<button class="btn ntn-primary" type="submit">Search</button>
 	</form>
 	<?php if(count($filtered_products) > 0){ ?>
 	<div class="search-results">	
@@ -205,12 +223,12 @@ if ($id_template == 1 || $id_template == 24 || $id_template == 25) {
 					<td><?=$value['note']?></td>
 					<td><?=$value['speed_notation']?></td>
 					<td><?=$value['genre']?></td>
-					
 				</tr>
 				<?php } ?>
 			</tbody>
 		</table>
 	</div>
 	<?php } ?>
+	<div class="clearfix"></div>
 </div>
 <?php } ?>
