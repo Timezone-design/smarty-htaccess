@@ -28,7 +28,7 @@
               <a href="/product/body/index.html" class="btn btn-primary btn-lg btn-block" id="stiffness"><span>ボディ補強</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
-              <a href="/product/ex/index.html" class="btn btn-primary btn-lg btn-block" id="exhaust"><span>排気系</span></a>
+              <a href="/product/exhaust/index.html" class="btn btn-primary btn-lg btn-block" id="exhaust"><span>排気系</span></a>
             </div>
             <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
               <a href="/product/intake/index.html" class="btn btn-primary btn-lg btn-block" id="intake"><span>吸気系</span></a>
