@@ -36,7 +36,7 @@
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/factory.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="/shop_menu/tenpo/factory.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
         <div class="footer-showbox col-md-4">
@@ -68,7 +68,7 @@
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/heiwajima.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="/shop_menu/tenpo/heiwajima.html"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
         <div class="footer-showbox col-md-4">
@@ -100,7 +100,7 @@
                 </tr>
             </table>
             <div class="showbox-bottom">
-                <a class="arrowed-link" href="https://www.kts-web.com/shop_menu/tenpo/ichinoe.html"><span class="ja">詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+                <a class="arrowed-link" href="/shop_menu/tenpo/ichinoe.html"><span class="ja">詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
             </div>
         </div>
     </div>
