@@ -42,7 +42,9 @@ if ($id_template == 1 || $id_template == 24 || $id_template == 25) {
 
 ?>
 <div class="search-block" id="search-block">
+	<div class="clearfix"></div>
 	<h1 class="search">SEARCH</h1>
+	<div class="clearfix"></div>
 	<h2>Japanese</h2>
 	<form action="/<?=$uri?>" method="post">
 	  <select name="car_manu" onchange="this.form.car_model_cat=''; this.form.product_name = ''; submit(this.form)">
