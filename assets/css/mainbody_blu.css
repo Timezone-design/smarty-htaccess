@@ -660,6 +660,23 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
     original product
  */
 
+.original-category .pictures {
+    width: 70%;
+    margin: auto;
+}
+
+.original-category div {
+    text-align: center;
+    width: 100%;
+}
+
+.original-category h1 {
+    font-size: 2vw;
+    text-align: center;
+    width: auto;
+    margin: auto;
+}
+
 .original-product .three-tiles.row {
     width: 80%;
     margin: auto;

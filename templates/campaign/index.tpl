@@ -14,7 +14,7 @@
             </div>
           </div>
           <div class="clearfix"></div>
-          <div class="seperator"></div>
+          <div class="black-seperator"></div>
         </div>
         <div class="grey-wrapper">
           <div class="clearfix"></div>
