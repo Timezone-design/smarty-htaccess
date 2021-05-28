@@ -324,19 +324,22 @@ a.notype:link {
 * large category small category
 */
 .large-category .row,
-.small-category .row {
+.small-category .row,
+.tire .row {
     width: 78%;
     margin: auto;
 }
 
 .large-category .row.banner-wrapper,
-.small-category .row.banner-wrapper {
+.small-category .row.banner-wrapper,
+.tire .row.banner-wrapper {
     /* width: 60%; */
     margin: auto;
 }
 
 .large-category .banner-wrapper,
-.small-category .banner-wrapper {
+.small-category .banner-wrapper,
+.tire .banner-wrapper {
     box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 1px 8px 0 rgb(0 0 0 / 19%);
     background-color: #ececec;
     padding: 15px;
@@ -738,4 +741,8 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
 .tire-wheel .top {
     width: 70%;
     margin: auto;
+}
+
+.tire .row .col-md-3 div {
+    margin: 15px 0;
 }
