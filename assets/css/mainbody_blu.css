@@ -315,7 +315,7 @@ a.notype:link {
 }
 
 .four-tiles-title {
-    font-size: 27px;
+    font-size: 1.3vw;
     font-weight: bold;
     padding: 13px 0px;
 }
@@ -745,4 +745,12 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
 
 .tire .row .col-md-3 div {
     margin: 15px 0;
+}
+
+.campaign .four-tiles.row {
+    width: 80%;
+}
+
+.campaign .banner-wrapper div {
+    width: 100%;
 }

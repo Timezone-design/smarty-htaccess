@@ -23,7 +23,6 @@
           <div class="clearfix"></div>
 
           <div class="four-tiles row">
-            <!-- {php}var_dump($page);{/php} -->
             {foreach $page.items as $item}
               <div class="four-tiles-one col-md-3 col-sm-4 col-xs-6">
                 <a href="{$item->link}" class="notype">
