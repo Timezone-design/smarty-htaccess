@@ -4,68 +4,63 @@
     {block name="content"}
       <div class="campaign white-wrapper small-category">
         <div class="clearfix"></div>
-        <div class="arrowed-title"><h1 class="ja">キャンペーン</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset="" ></div>
-        <div class="clearfix"></div>
-        <div class="clearfix"></div>
-        <div>
-          <div class="banner-wrapper row">
+        <div class="grey-wrapper">
+          <div class="clearfix"></div>
+          <div class="arrowed-title"><h1 class="ja">今月のキャンペーン</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset="" ></div>
+          <div class="clearfix"></div>
+          <div class="clearfix"></div>
+          <div class="row">
             <div>
-              <a href="/campaign/month.html"><img src="/assets/img/camp/img/20210515.gif" alt="Monthly Campaign" class="img-thumbnail"></a>
+              <a href="/campaign/month.html"><img src="/assets/img/camp/img/camp-banner.webp" alt="Monthly Campaign" class="img-thumbnail"></a>
             </div>
           </div>
           <div class="clearfix"></div>
-          <div class="black-seperator"></div>
         </div>
-        <div class="grey-wrapper">
+        <div class="white-wrapper">
           <div class="clearfix"></div>
-
-          <div class="four-tiles row">
-            <div class="four-tiles-one col-md-3 col-sm-4 col-xs-6">
+          <div class="clearfix"></div>
+          <div class="arrowed-title"><h1 class="ja">現在実施中のキャンペーン</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset="" ></div>
+          <div class="clearfix"></div>
+          <div class="clearfix"></div>
+          <div class="three-tiles row">
+            <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
               <a href="https://www.kts-web.com/campaign/damper_sitadori.html" class="notype">
-                <img src="/assets/img/200placeholder.svg" alt="Damper Sitadori" srcset="">
-                <div class="four-tiles-title ja">下取りキャンペーン</div>
+                <img src="/assets/img/camp/img/1.webp" alt="Damper Sitadori" srcset="">
               </a>
             </div>
-            <div class="four-tiles-one col-md-3 col-sm-4 col-xs-6">
+            <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
               <a href="https://www.kts-web.com/campaign/damper_sitadori_ichinoe.html" class="notype">
-                <img src="/assets/img/200placeholder.svg" alt="Damper Sitadori Ichinoe" srcset="">
-                <div class="four-tiles-title ja">ノーマルショック下取り</div>
+                <img src="/assets/img/camp/img/2.webp" alt="Damper Sitadori Ichinoe" srcset="">
               </a>
             </div>
-            <div class="four-tiles-one col-md-3 col-sm-4 col-xs-6">
+            <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
               <a href="https://www.kts-web.com/campaign/mochikomi.html" class="notype">
-                <img src="/assets/img/200placeholder.svg" alt="Mochinomi" srcset="">
-                <div class="four-tiles-title ja">平日持ち込み</div>
+                <img src="/assets/img/camp/img/3.webp" alt="Mochinomi" srcset="">
               </a>
             </div>
-            <div class="four-tiles-one col-md-3 col-sm-4 col-xs-6">
+            <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
               <a href="https://www.kts-web.com/campaign/import_alignment.html" class="notype">
-                <img src="/assets/img/200placeholder.svg" alt="Import Alignment" srcset="">
-                <div class="four-tiles-title ja">【輸入車限定】アライメント5,000円割引券プレゼント</div>
+                <img src="/assets/img/camp/img/4.webp" alt="Import Alignment" srcset="">
               </a>
             </div>
-            <div class="four-tiles-one col-md-3 col-sm-4 col-xs-6">
+            <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
               <a href="https://www.kts-web.com/campaign/gakuwari.html" class="notype">
-                <img src="/assets/img/200placeholder.svg" alt="Gakuwari" srcset="">
-                <div class="four-tiles-title ja">学割</div>
+                <img src="/assets/img/camp/img/5.webp" alt="Gakuwari" srcset="">
               </a>
             </div>
-            <div class="four-tiles-one col-md-3 col-sm-4 col-xs-6">
+            <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
               <a href="https://www.kts-web.com/campaign/alignment_pair.html" class="notype">
-                <img src="/assets/img/200placeholder.svg" alt="Alignment Pair" srcset="">
-                <div class="four-tiles-title ja">ペア割</div>
+                <img src="/assets/img/camp/img/6.webp" alt="Alignment Pair" srcset="">
               </a>
             </div>
-            <div class="four-tiles-one col-md-3 col-sm-4 col-xs-6">
+            <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
               <a href="https://www.kts-web.com/campaign/garagara_ichinoe.html" class="notype">
-                <img src="/assets/img/200placeholder.svg" alt="Garagara Ichinoe" srcset="">
-                <div class="four-tiles-title ja">一之江ガラガラ</div>
+                <img src="/assets/img/camp/img/7.webp" alt="Garagara Ichinoe" srcset="">
               </a>
             </div>
-            <div class="four-tiles-one col-md-3 col-sm-4 col-xs-6">
+            <div class="three-tiles-one col-md-4 col-sm-4 col-xs-6">
               <a href="https://www.kts-web.com/campaign/garagara_heiwajima.html" class="notype">
-                <img src="/assets/img/200placeholder.svg" alt="Garagara Heiwajima" srcset="">
-                <div class="four-tiles-title ja">平和島ガラガラ</div>
+                <img src="/assets/img/camp/img/8.webp" alt="Garagara Heiwajima" srcset="">
               </a>
             </div>
           </div>
