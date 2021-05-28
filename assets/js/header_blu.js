@@ -43,3 +43,8 @@ on('beforeChange', (event, slick, current, next) => {
 
   console.log('beforeChange', current, ':', lt2, lt1, next, gt1, gt2);
 });
+
+$('#header-link').click(function() {
+    var active_link = $('.slick-slide.slick-center a').attr("href");
+    window.location = active_link;
+});

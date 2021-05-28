@@ -22,7 +22,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/original_product/index.html">
+                    <a class="nav-link" href="/product/index.html">
                         <div class="ja">オリジナル商品</div>
                         <div class="en">ORIGINAL PRODUCT</div>
                     </a>
@@ -61,16 +61,16 @@
         </div>
         <div class="slick-wrapper">
             <div class="slick">
-                <div><img src="/assets/img/home/hks_202103_05_camp_480.webp"></div>
-                <div><img src="/assets/img/home/liqui_moly_dpf_480.webp"></div>
-                <div><img src="/assets/img/home/mahle_ozone_pro_480.webp"></div>
-                <div><img src="/assets/img/home/tire_wheel_480.webp"></div>
+                <div><a href="/product/index.html"><img src="/assets/img/home/hks_202103_05_camp_480.webp"></a></div>
+                <div><a href="/shop_menu/set/ch_ma/liqui_moly_dpf.html"><img src="/assets/img/home/liqui_moly_dpf_480.webp"></a></div>
+                <div><a href="/shop_menu/set/ch_ma/10674.html"><img src="/assets/img/home/mahle_ozone_pro_480.webp"></a></div>
+                <div><a href="/tire_wheel/tire/index.html"><img src="/assets/img/home/tire_wheel_480.webp"></a></div>
             </div>
         </div>
     </div>
     <div class="clearfix"></div>
     <div id="header-link" class="row">
-        <a class="arrowed-link" href="#"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
+        <a class="arrowed-link" href="javascript:void()" id="header-link"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
     </div>
 </header>
 <!-- Header End -->
