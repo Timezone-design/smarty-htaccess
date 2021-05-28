@@ -688,7 +688,7 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
         font-size: 2.5vw !important;
     }
 
-    .original-product .quick-search {
+    .original-product .quick-search, .original-product .quick-search select, .original-product .quick-search option {
         font-size: 2.5vw !important;
     }
 
@@ -756,6 +756,10 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
     text-align: right;
 }
 
+.original-product .quick-search select {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+}
+
 .original-product .white-wrapper .image-wrapper {
     width: 80%;
     margin: auto;
@@ -788,7 +792,7 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
 }
 
 .search-block form {
-    width: 80%;
+    width: 70%;
     margin: auto;
     justify-content: center;
     font-size: 1vw !important;
@@ -798,11 +802,17 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
     border: 0;
     width: 100%;
     font-size: 1vw !important;
+    border-radius: 5px;
+    border: solid 1px transparent;
 }
 
-.search-block button.btn-search {
+.search-block form .search-select {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-block button.btn-search, .search-block button.btn-search:focus-visible {
     font-size: 1.5vw;
-    /* background-image: url('/assets/img/search_button.png'); */
     color: black;
     border: none;
     position: relative;
@@ -821,6 +831,33 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
     font-size: 1vw;
 }
 
+@media all and (max-width: 991px) {
+
+    .search-block h1 {
+        font-size: 18px;
+    }
+    
+    .search-block h2 {
+        font-size: 13px;
+    }
+
+    .search-block form select,
+    .search-block button.btn-search,
+    .search-block button.btn-search:focus-visible,
+    .search-block button.btn-search div {
+        border: 0;
+        font-size: 11px !important;
+    }
+}
+
 .campaign .grey-wrapper .row {
     width: 78%;
+}
+
+.campaign .three-tiles-one {
+    margin-bottom: calc(5.7vw - 18px);
+}
+
+.campaign .white-wrapper .row {
+    width: 90%;
 }

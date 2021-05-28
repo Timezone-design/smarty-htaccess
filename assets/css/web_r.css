@@ -9,7 +9,7 @@ body {
 	background-color: #000;
 	color: #FFF;
 	/* iOS明朝体対策 */
-	font-family: ”ヒラギノ角ゴ Pro W3”,”Hiragino Kaku Gothic Pro”,Osaka,”ＭＳ Ｐゴシック”,”MS PGothic”, sans-serif;
+	font-family: ”ヒラギノ角ゴ Pro W3”,”Hiragino Kaku Gothic Pro”,Osaka,”ＭＳ Ｐゴシック”,”MS PGothic”, sans-serif !important;
 }
 
 *.n_bc {

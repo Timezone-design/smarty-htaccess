@@ -8,7 +8,17 @@ on('init', () => {
 slick({
   centerMode: true,
   centerPadding: 0,
-  slidesToShow: 3 }).
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 750,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+}).
 on('beforeChange', (event, slick, current, next) => {
   $('.slick-slide.gt2').removeClass('gt2');
   $('.slick-slide.gt1').removeClass('gt1');

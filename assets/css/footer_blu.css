@@ -11,7 +11,7 @@
 
 .showbox-content {
     margin: 0px 50px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
 }
 
 .showbox-bottom {
@@ -30,7 +30,7 @@
 .footer-bottom {
     background-color: black;
     padding-top: 45px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
     color: white;
 }
 
