@@ -49,7 +49,7 @@ while (($row = fgetcsv($handle, 0, ",")) !== false)
 
 fclose($handle);
 
-if(array_search($id_template, [21,22,23,24,25,42,43]) !== false){
+if(array_search($id_template, [21,22,23,24,25,31,42,43]) !== false){
 
 	$file = __DIR__."/db/$id_template.csv";
 
