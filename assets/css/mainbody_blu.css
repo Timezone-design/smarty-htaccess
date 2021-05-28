@@ -225,6 +225,10 @@ a.notype:link {
     position: relative;
 }
 
+/* 
+    three and four tiles
+ */
+
 .three-tiles-one .three-tiles-blue-border {
     font-size: 3.48vw;
     color: transparent;
@@ -317,7 +321,7 @@ a.notype:link {
 }
 
 /* 
-* large category
+* large category small category
 */
 .large-category .row,
 .small-category .row {
@@ -426,7 +430,8 @@ a.notype:link {
     margin: auto;
 }
 
-.store-introduction .workcost-table table, .daisya_table_cell table{
+.store-introduction .workcost-table table,
+.daisya_table_cell table {
     width: 100%;
     border-collapse: collapse;
     border: solid 1px rgba(128, 128, 128, 0.8);
@@ -467,7 +472,7 @@ a.notype:link {
 }
 
 .store-introduction .carry-in-part {
-    color:white;
+    color: white;
 }
 
 .store-introduction .carry-in-part ul {
@@ -475,7 +480,8 @@ a.notype:link {
     font-size: 1.2vw;
 }
 
-.store-introduction .carry-in-part .picture-container, .store-introduction .carry-in-part .list-wrapper {
+.store-introduction .carry-in-part .picture-container,
+.store-introduction .carry-in-part .list-wrapper {
     width: 80%;
     margin: auto;
 }
@@ -509,18 +515,19 @@ div.black-seperator {
     font-size: 0.8vw;
 }
 
-div.grey-wrapper.row.change-tire > div.table-bottom-info.ja {
+div.grey-wrapper.row.change-tire>div.table-bottom-info.ja {
     width: 70%;
     margin: auto;
     font-size: 1vw;
 }
-div.grey-wrapper.row.change-tire > div.table-bottom-info.ja .red {
+
+div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .red {
     color: red;
     text-align: left;
     margin-top: 10px;
 }
 
-div.grey-wrapper.row.change-tire > div.table-bottom-info.ja .cyan {
+div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
     color: deepskyblue;
     text-align: right;
 }
@@ -615,6 +622,7 @@ div.grey-wrapper.row.change-tire > div.table-bottom-info.ja .cyan {
 
 .store-introduction .daisya_text_right {
     text-align: right;
+    font-weight: bold;
 }
 
 .store-introduction .font_f00 {
@@ -633,4 +641,96 @@ div.grey-wrapper.row.change-tire > div.table-bottom-info.ja .cyan {
     .store-introduction .daisya_back {
         font-size: 2vw !important;
     }
+}
+
+/* 
+    original product
+ */
+
+.original-product .three-tiles.row {
+    width: 80%;
+    margin: auto;
+}
+
+@media all and (max-width: 767px) {
+
+    .original-product .three-tiles-one a span {
+        font-size: 2.5vw !important;
+    }
+
+    .original-product .quick-search {
+        font-size: 2.5vw !important;
+    }
+
+}
+
+.original-product .three-tiles-one a:hover span::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+.original-product .three-tiles-one a:hover span {
+    visibility: hidden;
+}
+
+.original-product .three-tiles-one a:hover#suspension span::after {
+    content: "SUSPENSION";
+}
+
+.original-product .three-tiles-one a:hover#dirve-train span::after {
+    content: "DIRVE TRAIN";
+}
+
+.original-product .three-tiles-one a:hover#cooling span::after {
+    content: "COOLING";
+}
+
+.original-product .three-tiles-one a:hover#brake span::after {
+    content: "BRAKE";
+}
+
+.original-product .three-tiles-one a:hover#arm-and-rod span::after {
+    content: "ARM & ROD";
+}
+
+.original-product .three-tiles-one a:hover#stiffness span::after {
+    content: "STIFFNESS";
+}
+
+.original-product .three-tiles-one a:hover#exhaust span::after {
+    content: "EXHAUST";
+}
+
+.original-product .three-tiles-one a:hover#intake span::after {
+    content: "INTAKE";
+}
+
+.original-product .three-tiles-one a:hover#interior span::after {
+    content: "INTERIOR";
+}
+
+.original-product .three-tiles-one a:hover#engine span::after {
+    content: "ENGINE";
+}
+
+.original-product .three-tiles-one a:hover#other span::after {
+    content: "OTHER";
+}
+
+.original-product .quick-search {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+}
+
+.original-product .white-wrapper .image-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.original-product .white-wrapper .image-wrapper div {
+    margin: 15px 0;
 }

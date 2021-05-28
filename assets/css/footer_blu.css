@@ -125,24 +125,24 @@
     #footer-logo-wrap img {
         width: 96%;
     }
-}
 
-.col-xs-1 {
-    width: 8.3333333%;
-}
-
-.col-xs-4 {
-    width: 33.3333333%;
-}
-
-.col-xs-6 {
-    width: 50%;
-}
-
-.col-xs-8 {
-    width: 66.6666667%;
-}
-
-.col-xs-11 {
-    width: 91.6666667%;
+    .col-xs-1 {
+        width: 8.3333333%;
+    }
+    
+    .col-xs-4 {
+        width: 33.3333333%;
+    }
+    
+    .col-xs-6 {
+        width: 50%;
+    }
+    
+    .col-xs-8 {
+        width: 66.6666667%;
+    }
+    
+    .col-xs-11 {
+        width: 91.6666667%;
+    }
 }
