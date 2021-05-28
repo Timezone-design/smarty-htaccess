@@ -59,6 +59,8 @@
         <div id="header-carousel-name" class="arrowed-title">
             <h1>PICK UP</h1><img src="/assets/img/blue_arrow.svg" alt="Blue Arrow" srcset="">
         </div>
+        <div class="clearfix toggle"></div>
+        <div class="clearfix toggle"></div>
         <div class="slick-wrapper">
             <div class="slick">
                 <div><a href="/product/index.html"><img src="/assets/img/home/hks_202103_05_camp_480.webp"></a></div>
