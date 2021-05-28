@@ -2,5 +2,5 @@
 {extends file='layout.tpl'}
 
     {block name="content"}
-      <p>Write TOP page content.</p>
+      <p>The page content is comming soon!</p>
     {/block}
