@@ -22,7 +22,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/original_product/index.html">
+                    <a class="nav-link" href="/product/index.html">
                         <div class="ja">オリジナル商品</div>
                         <div class="en">ORIGINAL PRODUCT</div>
                     </a>
