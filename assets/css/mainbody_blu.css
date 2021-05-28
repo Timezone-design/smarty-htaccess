@@ -734,3 +734,8 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
 .original-product .white-wrapper .image-wrapper div {
     margin: 15px 0;
 }
+
+.tire-wheel .top {
+    width: 70%;
+    margin: auto;
+}
