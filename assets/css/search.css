@@ -2,6 +2,7 @@
 .search-results {
     width: 100%;
     overflow: scroll;
+    margin-top: 50px;
 }
 /* 適合検索 */
 .matching_search{table-layout: auto;}
