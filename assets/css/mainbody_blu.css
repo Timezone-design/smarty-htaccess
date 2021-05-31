@@ -146,6 +146,8 @@ img {
 .four-square-one .inner-wrapper {
     /* width: 50%; */
     /* display: inline-block; */
+    margin: 0 7px;
+    position: relative;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 1px 8px 0 rgb(0 0 0 / 19%);
@@ -155,6 +157,10 @@ img {
 
 .four-square-one .inner-wrapper>a>img {
     width: 100%;
+}
+
+.four-square-one .inner-wrapper .description {
+    margin-top: 12px;
 }
 
 .four-square-one a,
@@ -478,6 +484,27 @@ a.notype:link {
 .store-introduction .daisya_table_cell tbody td,
 .search-results table tbody td {
     position: relative;
+}
+
+.search-results table {
+    white-space: nowrap;
+    table-layout: fixed;
+}
+
+.search-results table td {
+    padding: 7px;
+    overflow-wrap: break-word;
+}
+
+.search-results {
+    width: 90%;
+    margin: auto;
+}
+
+@media all and (max-width: 991px) {
+    .search-results table td, .search-results table th {
+        font-size: 15px;
+    }
 }
 
 .store-introduction .clearfix {
@@ -814,15 +841,20 @@ div.grey-wrapper.row.change-tire>div.table-bottom-info.ja .cyan {
 }
 
 .search-block button.btn-search,
-.search-block button.btn-search:focus-visible {
+.search-block button.btn-search:focus-visible,
+.search-block button.btn-search:focus {
     font-size: 1.5vw;
     color: black;
     border: none;
+    outline: none;
     position: relative;
 }
 
-.search-block button.btn-search img {
+.search-block button.btn-search img
+.search-block button.btn-search:focus-visible img {
     width: 100%;
+    border: none;
+    outline: none;
     /* opacity: 0; */
 }
 

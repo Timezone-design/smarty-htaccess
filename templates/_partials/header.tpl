@@ -74,5 +74,6 @@
     <div id="header-link" class="row">
         <a class="arrowed-link" href="javascript:void()" id="header-link"><span>詳しく見る</span><img src="/assets/img/black_arrow.svg" alt="Header Link"></a>
     </div>
+    <div class="clearfix"></div>
 </header>
 <!-- Header End -->

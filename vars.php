@@ -27,7 +27,7 @@ $javascript = array(
 $stylesheets = array(
 
 	'external' => array(
-		"/assets/css/search.css",
+		// "/assets/css/search.css",
 		"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
 		"/assets/css/header_blu.css",
 		"/assets/css/mainbody_blu.css",

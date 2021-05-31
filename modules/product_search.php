@@ -77,6 +77,8 @@ if ($id_template == 1 || $id_template == 24 || $id_template == 25) {
 		<button type="submit" class="btn-search"><img src="/assets/img/search_button.png" alt="Search"><div class="ja">検索</div></button>
 	</form>
 	<?php if(count($filtered_products) > 0){ ?>
+	<div class="clearfix"></div>
+	<div class="clearfix"></div>
 	<div class="search-results">	
 		<table class="matching_table_all">
 			<thead>
@@ -192,6 +194,8 @@ if ($id_template == 1 || $id_template == 24 || $id_template == 25) {
 	  	<button class="btn-search" type="submit"><img src="/assets/img/search_button.png" alt="Search"><div class="ja">検索</div></button>
 	</form>
 	<?php if(count($filtered_products) > 0){ ?>
+	<div class="clearfix"></div>
+	<div class="clearfix"></div>
 	<div class="search-results">	
 		<table class="matching_table_all">
 			<thead>
