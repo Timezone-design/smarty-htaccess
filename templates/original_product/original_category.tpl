@@ -2,12 +2,12 @@
 {extends file='layout.tpl'}
 
     {block name="content"}
-      <div class="clearfix"></div>
-      <div class="original-category">
-        <div class="clearfix"></div>
-        <div class="grey-wrapper row">
+        <div class="main_c grey-wrapper row">
+          <div class="clearfix-s"></div>
+          <div class="only_img_pr_back black-wrapper">
+            <br>
+            <div class="pr_title_1">【ボディ補強パーツ】</div>
           {foreach $page.items as $item}
-            <div class="clearfix"></div>
             <h1 class="ja">{$item->title}</h1>
             <div class="black-seperator"></div>
             <div class="pictures">
@@ -16,6 +16,6 @@
               {/foreach}
             </div>
           {/foreach}
+          </div>
         </div>
-      </div>
     {/block}
